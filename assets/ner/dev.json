@@ -1,0 +1,3402 @@
+[
+    [
+        "Guten Morgen, kann der Catsbook in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    23,
+                    31,
+                    "DRUCKER"
+                ],
+                [
+                    35,
+                    40,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, kann der Flexipaper in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    23,
+                    33,
+                    "DRUCKER"
+                ],
+                [
+                    37,
+                    42,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, kann der Instory in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    23,
+                    30,
+                    "DRUCKER"
+                ],
+                [
+                    34,
+                    39,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, kann der Paperling in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    23,
+                    32,
+                    "DRUCKER"
+                ],
+                [
+                    36,
+                    41,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, kann der Storypen in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    23,
+                    31,
+                    "DRUCKER"
+                ],
+                [
+                    35,
+                    40,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, kann der Strature in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    23,
+                    31,
+                    "DRUCKER"
+                ],
+                [
+                    35,
+                    40,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist der Preis vom Instory?",
+        {
+            "entities": [
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    43,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist der Preis vom Logypape?",
+        {
+            "entities": [
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    44,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist der Preis vom Patrone?",
+        {
+            "entities": [
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    43,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist der Preis vom Printile?",
+        {
+            "entities": [
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    44,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist der Preis vom Statch?",
+        {
+            "entities": [
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    42,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist der Preis vom Unitor?",
+        {
+            "entities": [
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    42,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist die Diagonale des Fitscreen?",
+        {
+            "entities": [
+                [
+                    26,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    49,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist die Diagonale des Luxsight?",
+        {
+            "entities": [
+                [
+                    26,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    48,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist die Diagonale des Probox?",
+        {
+            "entities": [
+                [
+                    26,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    46,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, was ist die GrÃ¶ÃŸe des Luxsight?",
+        {
+            "entities": [
+                [
+                    26,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    46,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der Deview?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    46,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der Honitor?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    47,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der Monitoo?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    47,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der Panelmaster?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    51,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der RGBWonder?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    49,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der Screensy?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    48,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche AuflÃ¶sung hat der Statch?",
+        {
+            "entities": [
+                [
+                    21,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    46,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche Produkt-Nummer hat der Deskplane?",
+        {
+            "entities": [
+                [
+                    21,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    53,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche Produkt-Nummer hat der Patrone?",
+        {
+            "entities": [
+                [
+                    21,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    51,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welche Produkt-Nummer hat der Probox?",
+        {
+            "entities": [
+                [
+                    21,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    50,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welcher Prozessor ist im Deskplant?",
+        {
+            "entities": [
+                [
+                    22,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    48,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welcher Prozessor ist im Hacket?",
+        {
+            "entities": [
+                [
+                    22,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    45,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welcher Prozessor ist im Mobirus?",
+        {
+            "entities": [
+                [
+                    22,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    46,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welcher Prozessor ist im Netboot?",
+        {
+            "entities": [
+                [
+                    22,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    46,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, welcher Prozessor ist im Solity?",
+        {
+            "entities": [
+                [
+                    22,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    45,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie ist denn das Modell vom Instory?",
+        {
+            "entities": [
+                [
+                    27,
+                    37,
+                    "PROPERTY"
+                ],
+                [
+                    42,
+                    49,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie ist denn der Arbeitsspeicher vom Cybeript?",
+        {
+            "entities": [
+                [
+                    27,
+                    46,
+                    "PROPERTY"
+                ],
+                [
+                    51,
+                    59,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie ist denn der Prozessor vom Techip?",
+        {
+            "entities": [
+                [
+                    27,
+                    40,
+                    "PROPERTY"
+                ],
+                [
+                    45,
+                    51,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie ist denn die Diagonale vom RGBWonder?",
+        {
+            "entities": [
+                [
+                    27,
+                    40,
+                    "PROPERTY"
+                ],
+                [
+                    45,
+                    54,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie ist denn die Farbe vom Printbox?",
+        {
+            "entities": [
+                [
+                    27,
+                    36,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    49,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie ist denn die Produkt-Nummer vom Minix?",
+        {
+            "entities": [
+                [
+                    27,
+                    45,
+                    "PROPERTY"
+                ],
+                [
+                    50,
+                    55,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viel Arbeitsspeicher hat der Clab?",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    51,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viel Arbeitsspeicher hat der Comptop?",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    54,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viel Arbeitsspeicher hat der Netboot?",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    54,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viel Arbeitsspeicher hat der Portbook?",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    55,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viel Arbeitsspeicher hat der Techslee?",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    55,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viel Arbeitsspeicher hat der Techvology?",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    57,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viele Seiten pro Minute schafft der Flixcard?",
+        {
+            "entities": [
+                [
+                    24,
+                    41,
+                    "PROPERTY"
+                ],
+                [
+                    54,
+                    62,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viele Seiten pro Minute schafft der Logypape?",
+        {
+            "entities": [
+                [
+                    24,
+                    41,
+                    "PROPERTY"
+                ],
+                [
+                    54,
+                    62,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viele Seiten pro Minute schafft der Plast?",
+        {
+            "entities": [
+                [
+                    24,
+                    41,
+                    "PROPERTY"
+                ],
+                [
+                    54,
+                    59,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viele Seiten pro Minute schafft der Publite?",
+        {
+            "entities": [
+                [
+                    24,
+                    41,
+                    "PROPERTY"
+                ],
+                [
+                    54,
+                    61,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Morgen, wie viele Seiten pro Minute schafft der Stract?",
+        {
+            "entities": [
+                [
+                    24,
+                    41,
+                    "PROPERTY"
+                ],
+                [
+                    54,
+                    60,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Bytechip in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    28,
+                    "DRUCKER"
+                ],
+                [
+                    32,
+                    37,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Logypape in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    28,
+                    "DRUCKER"
+                ],
+                [
+                    32,
+                    37,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Machipset in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "DRUCKER"
+                ],
+                [
+                    33,
+                    38,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Printbox in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    28,
+                    "DRUCKER"
+                ],
+                [
+                    32,
+                    37,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Printive in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    28,
+                    "DRUCKER"
+                ],
+                [
+                    32,
+                    37,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Shardware in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "DRUCKER"
+                ],
+                [
+                    33,
+                    38,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, kann der Specdesk in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    20,
+                    28,
+                    "DRUCKER"
+                ],
+                [
+                    32,
+                    37,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist der Preis vom Bitsphere?",
+        {
+            "entities": [
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    42,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist der Preis vom Condpape?",
+        {
+            "entities": [
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    41,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist der Preis vom Displayg?",
+        {
+            "entities": [
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    41,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist der Preis vom GigMonitor?",
+        {
+            "entities": [
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    43,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist der Preis vom Specdesk?",
+        {
+            "entities": [
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    41,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist die Diagonale des Minitor?",
+        {
+            "entities": [
+                [
+                    23,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    44,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist die Diagonale des Optiont?",
+        {
+            "entities": [
+                [
+                    23,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    44,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist die Diagonale des Probox?",
+        {
+            "entities": [
+                [
+                    23,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    43,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist die Diagonale des Techanix?",
+        {
+            "entities": [
+                [
+                    23,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    45,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, was ist die GrÃ¶ÃŸe des Hideo?",
+        {
+            "entities": [
+                [
+                    23,
+                    30,
+                    "PROPERTY"
+                ],
+                [
+                    35,
+                    40,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche AuflÃ¶sung hat der Bannel?",
+        {
+            "entities": [
+                [
+                    18,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    43,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche AuflÃ¶sung hat der Statch?",
+        {
+            "entities": [
+                [
+                    18,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    43,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche AuflÃ¶sung hat der Syncser?",
+        {
+            "entities": [
+                [
+                    18,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    44,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche AuflÃ¶sung hat der Techanix?",
+        {
+            "entities": [
+                [
+                    18,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    45,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der AmberPixel?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    51,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der Apaper?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    47,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der Computia?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    49,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der Cryptop?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    48,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der Machip?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    47,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der Plast?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    46,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welche Produkt-Nummer hat der Screenza?",
+        {
+            "entities": [
+                [
+                    18,
+                    32,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    49,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welcher Prozessor ist im Cybeript?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    44,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welcher Prozessor ist im Hackboss?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    44,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welcher Prozessor ist im Hacket?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    42,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welcher Prozessor ist im Minix?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    41,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, welcher Prozessor ist im Slaptop?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    43,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn Seiten pro Minute vom Pastory?",
+        {
+            "entities": [
+                [
+                    24,
+                    41,
+                    "PROPERTY"
+                ],
+                [
+                    46,
+                    53,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn das Modell vom Honitor?",
+        {
+            "entities": [
+                [
+                    24,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    46,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn das Modell vom Panelmaster?",
+        {
+            "entities": [
+                [
+                    24,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    50,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn das Modell vom RGBWonder?",
+        {
+            "entities": [
+                [
+                    24,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    48,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn der Arbeitsspeicher vom Dection?",
+        {
+            "entities": [
+                [
+                    24,
+                    43,
+                    "PROPERTY"
+                ],
+                [
+                    48,
+                    55,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn der Arbeitsspeicher vom Logicube?",
+        {
+            "entities": [
+                [
+                    24,
+                    43,
+                    "PROPERTY"
+                ],
+                [
+                    48,
+                    56,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn der Arbeitsspeicher vom Techip?",
+        {
+            "entities": [
+                [
+                    24,
+                    43,
+                    "PROPERTY"
+                ],
+                [
+                    48,
+                    54,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn der Preis vom Minitor?",
+        {
+            "entities": [
+                [
+                    24,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    45,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn der Preis vom Paperblazer?",
+        {
+            "entities": [
+                [
+                    24,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    49,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn der Preis vom Writion?",
+        {
+            "entities": [
+                [
+                    24,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    45,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn die Farbe vom Kayproxy?",
+        {
+            "entities": [
+                [
+                    24,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    46,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn die Farbe vom Printive?",
+        {
+            "entities": [
+                [
+                    24,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    46,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn die Farbe vom Specdesk?",
+        {
+            "entities": [
+                [
+                    24,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    46,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn die Produkt-Nummer vom RGBWonder?",
+        {
+            "entities": [
+                [
+                    24,
+                    42,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    56,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn die Produkt-Nummer vom Statch?",
+        {
+            "entities": [
+                [
+                    24,
+                    42,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    53,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie ist denn die Produkt-Nummer vom Workstand?",
+        {
+            "entities": [
+                [
+                    24,
+                    42,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    56,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viel Arbeitsspeicher hat der Comptop?",
+        {
+            "entities": [
+                [
+                    20,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    51,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viel Arbeitsspeicher hat der Deskplant?",
+        {
+            "entities": [
+                [
+                    20,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    53,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viel Arbeitsspeicher hat der Mobirus?",
+        {
+            "entities": [
+                [
+                    20,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    51,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viel Arbeitsspeicher hat der Setupper?",
+        {
+            "entities": [
+                [
+                    20,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    52,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viel Arbeitsspeicher hat der Techip?",
+        {
+            "entities": [
+                [
+                    20,
+                    35,
+                    "PROPERTY"
+                ],
+                [
+                    44,
+                    50,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viele Seiten pro Minute schafft der Docdox?",
+        {
+            "entities": [
+                [
+                    21,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    51,
+                    57,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viele Seiten pro Minute schafft der Plast?",
+        {
+            "entities": [
+                [
+                    21,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    51,
+                    56,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viele Seiten pro Minute schafft der Specdesk?",
+        {
+            "entities": [
+                [
+                    21,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    51,
+                    59,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Guten Tag, wie viele Seiten pro Minute schafft der Strature?",
+        {
+            "entities": [
+                [
+                    21,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    51,
+                    59,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, kann der Docdox in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    16,
+                    22,
+                    "DRUCKER"
+                ],
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, kann der Nerdware in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    16,
+                    24,
+                    "DRUCKER"
+                ],
+                [
+                    28,
+                    33,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, kann der Netware in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    16,
+                    23,
+                    "DRUCKER"
+                ],
+                [
+                    27,
+                    32,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, kann der Papell in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    16,
+                    22,
+                    "DRUCKER"
+                ],
+                [
+                    26,
+                    31,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, kann der Printbox in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    16,
+                    24,
+                    "DRUCKER"
+                ],
+                [
+                    28,
+                    33,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, kann der Shardware in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    16,
+                    25,
+                    "DRUCKER"
+                ],
+                [
+                    29,
+                    34,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist der Preis vom Logicube?",
+        {
+            "entities": [
+                [
+                    19,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    37,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist der Preis vom Probox?",
+        {
+            "entities": [
+                [
+                    19,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    35,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist der Preis vom Stration?",
+        {
+            "entities": [
+                [
+                    19,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    37,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist der Preis vom Techip?",
+        {
+            "entities": [
+                [
+                    19,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    35,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist der Preis vom Viewinxp?",
+        {
+            "entities": [
+                [
+                    19,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    37,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist die Diagonale des Bannel?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    39,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist die Diagonale des Minitor?",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    40,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist die GrÃ¶ÃŸe des Pixless?",
+        {
+            "entities": [
+                [
+                    19,
+                    26,
+                    "PROPERTY"
+                ],
+                [
+                    31,
+                    38,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, was ist die GrÃ¶ÃŸe des RGBWonder?",
+        {
+            "entities": [
+                [
+                    19,
+                    26,
+                    "PROPERTY"
+                ],
+                [
+                    31,
+                    40,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche AuflÃ¶sung hat der Deview?",
+        {
+            "entities": [
+                [
+                    14,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    39,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche AuflÃ¶sung hat der Optiont?",
+        {
+            "entities": [
+                [
+                    14,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    40,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche AuflÃ¶sung hat der Panelmaster?",
+        {
+            "entities": [
+                [
+                    14,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    44,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche AuflÃ¶sung hat der Spotgaze?",
+        {
+            "entities": [
+                [
+                    14,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    41,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche AuflÃ¶sung hat der Viewinxp?",
+        {
+            "entities": [
+                [
+                    14,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    33,
+                    41,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche Produkt-Nummer hat der Monitord?",
+        {
+            "entities": [
+                [
+                    14,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    45,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche Produkt-Nummer hat der Paperling?",
+        {
+            "entities": [
+                [
+                    14,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    46,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche Produkt-Nummer hat der Slaptop?",
+        {
+            "entities": [
+                [
+                    14,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    44,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welche Produkt-Nummer hat der Stration?",
+        {
+            "entities": [
+                [
+                    14,
+                    28,
+                    "PROPERTY"
+                ],
+                [
+                    37,
+                    45,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welcher Prozessor ist im Bitsphere?",
+        {
+            "entities": [
+                [
+                    15,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    41,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welcher Prozessor ist im Cybeript?",
+        {
+            "entities": [
+                [
+                    15,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    40,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welcher Prozessor ist im Minix?",
+        {
+            "entities": [
+                [
+                    15,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    37,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welcher Prozessor ist im Netboot?",
+        {
+            "entities": [
+                [
+                    15,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    39,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welcher Prozessor ist im Slaptop?",
+        {
+            "entities": [
+                [
+                    15,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    39,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, welcher Prozessor ist im Softween?",
+        {
+            "entities": [
+                [
+                    15,
+                    24,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    40,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn der Preis vom Lightmonger?",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    45,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn der Preis vom Webook?",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    40,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn der Prozessor vom Comptoid?",
+        {
+            "entities": [
+                [
+                    20,
+                    33,
+                    "PROPERTY"
+                ],
+                [
+                    38,
+                    46,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn die Farbe vom Paper Pacer?",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    45,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn die Farbe vom Paperling?",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    43,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn die Produkt-Nummer vom Bytechip?",
+        {
+            "entities": [
+                [
+                    20,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    43,
+                    51,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn die Produkt-Nummer vom Ibotrix?",
+        {
+            "entities": [
+                [
+                    20,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    43,
+                    50,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn die Produkt-Nummer vom Nerdware?",
+        {
+            "entities": [
+                [
+                    20,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    43,
+                    51,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie ist denn die Produkt-Nummer vom Shardware?",
+        {
+            "entities": [
+                [
+                    20,
+                    38,
+                    "PROPERTY"
+                ],
+                [
+                    43,
+                    52,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viel Arbeitsspeicher hat der Comptoid?",
+        {
+            "entities": [
+                [
+                    16,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    48,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viel Arbeitsspeicher hat der Deskler?",
+        {
+            "entities": [
+                [
+                    16,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    47,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viel Arbeitsspeicher hat der Machip?",
+        {
+            "entities": [
+                [
+                    16,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    46,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viel Arbeitsspeicher hat der Martbook?",
+        {
+            "entities": [
+                [
+                    16,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    40,
+                    48,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viele Seiten pro Minute schafft der Flixcard?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    55,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viele Seiten pro Minute schafft der Inkily?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    53,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viele Seiten pro Minute schafft der Nerdware?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    55,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viele Seiten pro Minute schafft der Paperling?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    56,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viele Seiten pro Minute schafft der Typedia?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    54,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hallo, wie viele Seiten pro Minute schafft der Writion?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    47,
+                    54,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Inkily in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    19,
+                    "DRUCKER"
+                ],
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Nerdware in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    21,
+                    "DRUCKER"
+                ],
+                [
+                    25,
+                    30,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Printbox in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    21,
+                    "DRUCKER"
+                ],
+                [
+                    25,
+                    30,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Printive in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    21,
+                    "DRUCKER"
+                ],
+                [
+                    25,
+                    30,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Publite in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    20,
+                    "DRUCKER"
+                ],
+                [
+                    24,
+                    29,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Sation in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    19,
+                    "DRUCKER"
+                ],
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, kann der Stract in Farbe drucken?",
+        {
+            "entities": [
+                [
+                    13,
+                    19,
+                    "DRUCKER"
+                ],
+                [
+                    23,
+                    28,
+                    "PROPERTY"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Deskler?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    33,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Displayer?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    35,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Examap?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    32,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Formabox?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    34,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Kayproxy?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    34,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Logypape?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    34,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist der Preis vom Viework?",
+        {
+            "entities": [
+                [
+                    16,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    26,
+                    33,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist die Diagonale des Displayg?",
+        {
+            "entities": [
+                [
+                    16,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    38,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist die Diagonale des Fdisplay?",
+        {
+            "entities": [
+                [
+                    16,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    38,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist die Diagonale des Luxsight?",
+        {
+            "entities": [
+                [
+                    16,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    38,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist die GrÃ¶ÃŸe des Statch?",
+        {
+            "entities": [
+                [
+                    16,
+                    23,
+                    "PROPERTY"
+                ],
+                [
+                    28,
+                    34,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, was ist die GrÃ¶ÃŸe des Viewinxp?",
+        {
+            "entities": [
+                [
+                    16,
+                    23,
+                    "PROPERTY"
+                ],
+                [
+                    28,
+                    36,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche AuflÃ¶sung hat der Fitscreen?",
+        {
+            "entities": [
+                [
+                    11,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    39,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche AuflÃ¶sung hat der Fypixel?",
+        {
+            "entities": [
+                [
+                    11,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    37,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche AuflÃ¶sung hat der Lightmonger?",
+        {
+            "entities": [
+                [
+                    11,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    41,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche AuflÃ¶sung hat der Monitord?",
+        {
+            "entities": [
+                [
+                    11,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    38,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche AuflÃ¶sung hat der Spector?",
+        {
+            "entities": [
+                [
+                    11,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    30,
+                    37,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche Produkt-Nummer hat der Deview?",
+        {
+            "entities": [
+                [
+                    11,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    40,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche Produkt-Nummer hat der Scanna?",
+        {
+            "entities": [
+                [
+                    11,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    40,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche Produkt-Nummer hat der Spector?",
+        {
+            "entities": [
+                [
+                    11,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    41,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welche Produkt-Nummer hat der Syncser?",
+        {
+            "entities": [
+                [
+                    11,
+                    25,
+                    "PROPERTY"
+                ],
+                [
+                    34,
+                    41,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welcher Prozessor ist im Deskler?",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    36,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welcher Prozessor ist im Deskplant?",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    38,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welcher Prozessor ist im Mobirus?",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    36,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welcher Prozessor ist im Slaptop?",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    36,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, welcher Prozessor ist im Techbox?",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "PROPERTY"
+                ],
+                [
+                    29,
+                    36,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn Seiten pro Minute vom Shardware?",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "PROPERTY"
+                ],
+                [
+                    39,
+                    48,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn das Modell vom Inkily?",
+        {
+            "entities": [
+                [
+                    17,
+                    27,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    38,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn das Modell vom Syncser?",
+        {
+            "entities": [
+                [
+                    17,
+                    27,
+                    "PROPERTY"
+                ],
+                [
+                    32,
+                    39,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn der Arbeitsspeicher vom Workstand?",
+        {
+            "entities": [
+                [
+                    17,
+                    36,
+                    "PROPERTY"
+                ],
+                [
+                    41,
+                    50,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn der Preis vom Printbox?",
+        {
+            "entities": [
+                [
+                    17,
+                    26,
+                    "PROPERTY"
+                ],
+                [
+                    31,
+                    39,
+                    "DRUCKER"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn der Preis vom Screensy?",
+        {
+            "entities": [
+                [
+                    17,
+                    26,
+                    "PROPERTY"
+                ],
+                [
+                    31,
+                    39,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn der Prozessor vom Mobirus?",
+        {
+            "entities": [
+                [
+                    17,
+                    30,
+                    "PROPERTY"
+                ],
+                [
+                    35,
+                    42,
+                    "PC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn die AuflÃ¶sung vom Distor?",
+        {
+            "entities": [
+                [
+                    17,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    42,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn die AuflÃ¶sung vom Pixless?",
+        {
+            "entities": [
+                [
+                    17,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    43,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn die AuflÃ¶sung vom Probox?",
+        {
+            "entities": [
+                [
+                    17,
+                    31,
+                    "PROPERTY"
+                ],
+                [
+                    36,
+                    42,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn die Diagonale vom GigMonitor?",
+        {
+            "entities": [
+                [
+                    17,
+                    30,
+                    "PROPERTY"
+                ],
+                [
+                    35,
+                    45,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hi, wie ist denn die Diagonale vom Spotgaze?",
+        {
+            "entities": [
+                [
+                    17,
+                    30,
+                    "PROPERTY"
+                ],
+                [
+                    35,
+                    43,
+                    "MONITOR"
+                ]
+            ]
+        }
+    ]
+]

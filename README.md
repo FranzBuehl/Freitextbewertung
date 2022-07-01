@@ -46,7 +46,7 @@ in the project directory.
 
 | File | Source | Description |
 | --- | --- | --- |
-| [`assets/train.json`](assets/train.json) | Local | Demo training data converted from the v2 `train_ner.py` example with `srsly.write_json("train.json", TRAIN_DATA)` |
-| [`assets/dev.json`](assets/dev.json) | Local | Demo development data |
+| [`assets/train.json`](assets/ner/train.json) | Local | Demo training data converted from the v2 `train_ner.py` example with `srsly.write_json("train.json", TRAIN_DATA)` |
+| [`assets/dev.json`](assets/ner/dev.json) | Local | Demo development data |
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->

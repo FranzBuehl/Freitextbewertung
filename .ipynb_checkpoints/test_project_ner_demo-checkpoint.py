@@ -8,5 +8,3 @@ def test_ner_demo_project():
     project_assets(root)
     project_run(root, "all", capture=True)
     project_run(root, "package", capture=True)
-
-test_ner_demo_project()

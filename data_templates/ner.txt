@@ -1,0 +1,177 @@
+// This template defines different ways to ask for the location of toilets (Chatette version)
+%[&frage_nach_product_detail](1000)
+    ~[begrüßung?] wie ist denn @[pc_detail] vom @[PC]?
+    ~[begrüßung?] wie ist denn @[monitor_detail] vom @[MONITOR]?
+    ~[begrüßung?] wie ist denn @[drucker_detail] vom @[DRUCKER]?
+    ~[begrüßung?] welche @[Produkt-Nummer] hat der [@[PC]|@[MONITOR]|@[DRUCKER]]?
+    ~[begrüßung?] was ist der @[Preis] vom [@[PC]|@[MONITOR]|@[DRUCKER]]?
+    ~[begrüßung?] welcher @[Prozessor] ist im @[PC]?
+    ~[begrüßung?] wie viel @[Arbeitsspeicher] hat der @[PC]?
+    ~[begrüßung?] welche @[Auflösung] hat der @[MONITOR]?
+    ~[begrüßung?] was ist die @[Größe] des @[MONITOR]?
+    ~[begrüßung?] wie viele @[Seiten pro Minute] schafft der @[DRUCKER]?
+    ~[begrüßung?] kann der @[DRUCKER] in @[Farbe] drucken?
+~[begrüßung]
+    Hallo,
+    Guten Tag,
+    Guten Morgen,
+    Hi,
+    Servus, 	
+@[PC]
+    Deskcode
+    Machip
+    Patrone
+    Logicube
+    Dection
+    Portbook
+    Techpad
+    Techain
+    Webook
+    Clab
+    Cyberver
+    Cryptop
+    Solity
+    Slaptop
+    Deskplane
+    Techbox
+    Formabox
+    Martbook
+    Comptoid
+    Stration
+    Bitsphere
+    Workstand
+    Techvology
+    Deskplant
+    Comptop
+    Deskclix
+    Setupper
+    Computia
+    Softween
+    Hackboss
+    Netboot
+    Cybeript
+    Techip
+    Hacket
+    Ibotrix
+    Techslee
+    Deskler
+    Mobirus
+    Gymobile
+    Minix
+@[MONITOR]
+    Screenza
+    Pixeltraum
+    Viework
+    Patrix
+    Honitor
+    Syncser
+    Statch
+    Viewinxp
+    Camerash
+    Fitscreen
+    Lightmonger
+    Channery
+    Minitor
+    Displayer
+    Gscreen
+    Proscreen
+    Hideo
+    Pixless
+    Deview
+    Techanix
+    Monitord
+    Monitoo
+    Probox
+    Panelmaster
+    Luxsight
+    Distor
+    Fdisplay
+    Optiont
+    Bannel
+    GigMonitor
+    Fypixel
+    Displayg
+    Spotgaze
+    RGBWonder
+    Monity
+    AmberPixel
+    Screensy
+    Pictory
+    Spector
+    Unitor
+@[DRUCKER]
+    Docdox
+    Nerdware
+    Techinex
+    Machipset
+    Storypen
+    Pastory
+    Computingo
+    Condpape
+    Bytechip
+    Typedia
+    Specdesk
+    Catsbook
+    Flixcard
+    Sation
+    Netware
+    Strature
+    Printive
+    Stract
+    Writion
+    Shardware
+    Sket
+    Tractory
+    Inkily
+    Examap
+    Printile
+    Paperblazer
+    Logypape
+    Plast
+    Flexipaper
+    Printbox
+    Instory
+    Storyunit
+    Kayproxy
+    Paper Pacer
+    Publite
+    Apaper
+    Papell
+    Paperling
+    Scanna
+    Printoid
+@[pc_detail]
+    die Produkt-Nummer
+    der Prozessor	
+    der Arbeitsspeicher	
+    der Preis
+@[monitor_detail]
+    die Produkt-Nummer
+    das Modell	
+    die Auflösung	
+    die Größe 
+    die Diagonale	
+    der Preis
+@[drucker_detail]
+    die Produkt-Nummer
+    das Modell	
+    Seiten pro Minute	
+    die Farbe	
+    der Preis
+@[Produkt-Nummer]
+    Produkt-Nummer
+@[Preis]
+    Preis
+@[Prozessor]
+    Prozessor
+@[Arbeitsspeicher]
+    Arbeitsspeicher
+@[Auflösung]
+    Auflösung
+@[Größe]
+    Größe
+    Diagonale
+@[Seiten pro Minute]
+    Seiten pro Minute
+@[Farbe]
+    Farbe

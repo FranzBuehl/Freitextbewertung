@@ -1,0 +1,150 @@
+convert:
+  cmd: python -m spacy run convert
+  script:
+    - python scripts/convert.py de assets/train.json corpus/train.spacy
+    - python scripts/convert.py de assets/dev.json corpus/dev.spacy
+  deps:
+    - path: assets/train.json
+      md5: 5aef985b36ab55da02fe9b06ed25a73f
+    - path: assets/dev.json
+      md5: d92d6acbdbaacd11f748413cb2abbd9c
+    - path: scripts/convert.py
+      md5: c7cd3994f4314f5f66757a21ff4b1d65
+  outs:
+    - path: corpus/train.spacy
+      md5: 568d40b80e6fe899f1562e200b0f2f28
+    - path: corpus/dev.spacy
+      md5: 75dfd329dd0e6d85e51fc381af37cba9
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+create-config:
+  cmd: python -m spacy run create-config
+  script:
+    - python -m spacy init config --lang de --pipeline ner configs/config.cfg --force
+  deps: []
+  outs:
+    - path: configs/config.cfg
+      md5: fb9588e2184f146d9fbbde9c76b29025
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+train:
+  cmd: python -m spacy run train
+  script:
+    - python -m spacy train configs/config.cfg --output training/ --paths.train corpus/train.spacy
+      --paths.dev corpus/dev.spacy --training.eval_frequency 10 --training.patience
+      50 --gpu-id -1
+  deps:
+    - path: configs/config.cfg
+      md5: fb9588e2184f146d9fbbde9c76b29025
+    - path: corpus/train.spacy
+      md5: 568d40b80e6fe899f1562e200b0f2f28
+    - path: corpus/dev.spacy
+      md5: 75dfd329dd0e6d85e51fc381af37cba9
+  outs:
+    - path: training/model-best
+      md5: 6d8c55ad40153bf470e1d9ad5b9aa45b
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+evaluate:
+  cmd: python -m spacy run evaluate
+  script:
+    - python -m spacy evaluate training/model-best corpus/dev.spacy --output training/metrics.json
+  deps:
+    - path: corpus/dev.spacy
+      md5: 75dfd329dd0e6d85e51fc381af37cba9
+    - path: training/model-best
+      md5: 6d8c55ad40153bf470e1d9ad5b9aa45b
+  outs:
+    - path: training/metrics.json
+      md5: 126221591db8a54fbe69d2b368d464bf
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+package:
+  cmd: python -m spacy run package
+  script:
+    - python -m spacy package training/model-best packages --name ner_demo --version
+      0.0.0 --force
+  deps:
+    - path: training/model-best
+      md5: 6d8c55ad40153bf470e1d9ad5b9aa45b
+  outs:
+    - path: packages/de_ner_demo-0.0.0/dist/de_ner_demo-0.0.0.tar.gz
+      md5: f55065908be33b860720f6751d38ccf5
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+ner-convert:
+  cmd: python -m spacy run ner-convert
+  script:
+    - python scripts/convert.py de assets/ner/train.json corpus/ner/train.spacy
+    - python scripts/convert.py de assets/ner/dev.json corpus/ner/dev.spacy
+  deps:
+    - path: assets/ner/train.json
+      md5: ca9c820756017cc217c44dacda002c01
+    - path: assets/ner/dev.json
+      md5: b9da7f4035bfbb521cd1d13b1504288f
+    - path: scripts/convert.py
+      md5: c7cd3994f4314f5f66757a21ff4b1d65
+  outs:
+    - path: corpus/ner/train.spacy
+      md5: 2cd426d5ceebe892885555191f9ab168
+    - path: corpus/ner/dev.spacy
+      md5: ac50d7040ee1591597f6b6804781c57b
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+ner-create-config:
+  cmd: python -m spacy run ner-create-config
+  script:
+    - python -m spacy init config --lang de --pipeline ner configs/ner/config.cfg
+      --force
+  deps: []
+  outs:
+    - path: configs/ner/config.cfg
+      md5: fb9588e2184f146d9fbbde9c76b29025
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+ner-train:
+  cmd: python -m spacy run ner-train
+  script:
+    - python -m spacy train configs/ner/config.cfg --output training/ner/ --paths.train
+      corpus/ner/train.spacy --paths.dev corpus/ner/dev.spacy --training.eval_frequency
+      10 --training.patience 50 --gpu-id -1
+  deps:
+    - path: configs/ner/config.cfg
+      md5: fb9588e2184f146d9fbbde9c76b29025
+    - path: corpus/ner/train.spacy
+      md5: 2cd426d5ceebe892885555191f9ab168
+    - path: corpus/ner/dev.spacy
+      md5: ac50d7040ee1591597f6b6804781c57b
+  outs:
+    - path: training/ner/model-best
+      md5: 22da605c2745a33ca31a4eadbb8fdee2
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+ner-evaluate:
+  cmd: python -m spacy run ner-evaluate
+  script:
+    - python -m spacy evaluate training/ner/model-best corpus/ner/dev.spacy --output
+      training/ner/metrics.json
+  deps:
+    - path: corpus/ner/dev.spacy
+      md5: ac50d7040ee1591597f6b6804781c57b
+    - path: training/ner/model-best
+      md5: 22da605c2745a33ca31a4eadbb8fdee2
+  outs:
+    - path: training/ner/metrics.json
+      md5: 2a0f0d693f8c5788089bb3c0af929010
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+ner-package:
+  cmd: python -m spacy run ner-package
+  script:
+    - python -m spacy package training/ner/model-best packages --name ner_demo --version
+      0.0.0 --force
+  deps:
+    - path: training/ner/model-best
+      md5: 22da605c2745a33ca31a4eadbb8fdee2
+  outs:
+    - path: packages/de_ner_demo-0.0.0/dist/de_ner_demo-0.0.0.tar.gz
+      md5: 1eb2bca893f9cfc8d2c4f9e2599d942c
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77

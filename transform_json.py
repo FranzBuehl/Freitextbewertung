@@ -7,9 +7,6 @@ f = open('output/train/output.jsonl')
 # a dictionary
 data = json.load(f)
 
-#f2 = open('output/train/output.jsonl')
-#data2 = json.load(f2)
-
 # Iterating through the json
 # list
 count = 0

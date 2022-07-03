@@ -5,21 +5,14 @@ description: "Use [FastAPI](https://fastapi.tiangolo.com/) to serve your spaCy m
 vars:
   host: "127.0.0.1"
   port: 5000
+  log_level: "info"
 
 # These are the directories that the project needs. The project CLI will make
 # sure that they always exist.
-directories: ["scripts", "assets", "examples"]
-
-# Assets that should be downloaded or available in the directory. You can replace
-# this with your own input data.
-assets:
-  - dest: "assets/data.jsonl"
-    url: "https://raw.githubusercontent.com/explosion/prodigy-recipes/master/example-datasets/plot_summaries.jsonl"
-    description: "Selected sentences from the CMU Movie Summary Corpus used for testing"
+directories: ["scripts"]
 
 workflows:
   start:
-    - install
     - serve
 
 # Project commands, specified in a style similar to CI config files (e.g. Azure
@@ -27,18 +20,10 @@ workflows:
 # via "spacy project run [command] [path]". The help message is optional and
 # shown when executing "spacy project run [optional command] [path] --help".
 commands:
-  - name: "install"
-    help: "Install dependencies and download models"
-    script:
-      - "pip install -r requirements.txt"
-      - "./scripts/download_models.sh"
-    deps:
-      - "requirements.txt"
-      - "scripts/download_models.sh"
   - name: "serve"
     help: "Serve the models via a FastAPI REST API using the given host and port"
     script:
-      - "uvicorn scripts.main:app --reload --host ${vars.host} --port ${vars.port}"
+      - "uvicorn scripts.main:app --reload --host ${vars.host} --port ${vars.port} --log-level ${vars.log_level}"
     deps:
       - "scripts/main.py"
     no_skip: true

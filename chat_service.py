@@ -1,16 +1,16 @@
 from numbers import Number
-
 import spacy
 import pandas as pd
 from random import randint
 
-nlp = spacy.load('modells/ner/packages/de_ner-0.0.0/de_ner/de_ner-0.0.0')
+def handle_chat_request(question, answer=''):
+    nlp = spacy.load('modells/ner/packages/de_ner-0.0.0/de_ner/de_ner-0.0.0')
+    doc = nlp(question)
+    for ent in doc.ents:
+        print(ent.text, ent.label_)
 
-doc = nlp('Hallo Frank, welchen Arbeitsspeicher hat der Deskclix Techbox?')
-
-
-for ent in doc.ents:
-    print(ent.text, ent.label_)
+    property = get_requested_property(doc.ents)
+    return create_chat_response(property, answer)
 
 # Ermittle Property, nach der gefragt wurde
 def get_requested_property(ents):
@@ -35,17 +35,16 @@ def get_requested_property(ents):
     if len(searchedProduct):
         return get_searched_property(searchedProduct, properties)
 
-def create_chat_response(property, answer=''):
+def create_chat_response(property, answer):
     answerTexts, feedbackTexts = read_chat_texts()
-    print(answerTexts.iloc[:, 3])
-    #Gibt es eine Antwort vom Spieler
+    #Gibt es eine Antwort vom Spieler?
     if len(answer):
         if is_answer_correct(answer, property):
             return create_response_text(feedbackTexts.iloc[:, 1], 7)
         else:
             return create_response_text(feedbackTexts.iloc[:, 0], 7)
     else:
-        if property:
+        if property: #Gibt es die gesuchte Property?
             answerText = create_response_text(answerTexts, 4, 2)
             answerText = str(answerText).replace('<Experten-Info>', str(property))
             return answerText
@@ -118,6 +117,3 @@ def addUnit(property, propertyName):
     else:
         return property
 
-property = get_requested_property(doc.ents)
-print(property)
-print(create_chat_response(property, "128 GB glaube ich"))

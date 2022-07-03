@@ -4,7 +4,7 @@ import spacy
 import pandas as pd
 from random import randint
 
-nlp = spacy.load('packages/de_ner_demo-0.0.0/de_ner_demo/de_ner_demo-0.0.0')
+nlp = spacy.load('modells/ner/packages/de_ner-0.0.0/de_ner/de_ner-0.0.0')
 
 doc = nlp('Hallo Frank, welchen Arbeitsspeicher hat der Deskclix Techbox?')
 
@@ -120,4 +120,4 @@ def addUnit(property, propertyName):
 
 property = get_requested_property(doc.ents)
 print(property)
-print(create_chat_response(property, "1238 GB glaube ich"))
+print(create_chat_response(property, "128 GB glaube ich"))

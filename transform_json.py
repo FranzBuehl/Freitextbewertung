@@ -1,7 +1,7 @@
 import json
 
 # Opening JSON file
-f = open('output/train/output.jsonl')
+f = open('generated_data/train/output.jsonl')
 
 # returns JSON object as
 # a dictionary
@@ -30,7 +30,7 @@ for i in data:
 
     count += 1
 
-with open('output2/train/output-fixed.jsonl', 'w', encoding='utf-8') as f:
+with open('output2/train/generated_data-fixed.jsonl', 'w', encoding='utf-8') as f:
     json.dump(out, f, ensure_ascii=False, indent=4)
 
 # Closing file

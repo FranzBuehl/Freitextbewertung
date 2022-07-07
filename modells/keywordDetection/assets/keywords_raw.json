@@ -1,0 +1,24 @@
+{
+    "Arbeitsanalyse" :{
+        "Rollenunklarheit": "Unklar*/widersprüchlich*/uneindeutig*/unsicher*/nicht sicher/nicht klar/nicht eindeutig*/unpräzise/nicht präzise/ungenau/nicht genau/kein*,Ziel/Aufgaben/Bewertung/Kriterien/Anleitung/Einweisung/Erklärung/Beschreibung/Instruktion",
+        "Informationsprobleme": "verfügbare Information*,Verfügbarkeit von Information*,Möglichkeiten der Informationsbeschaffung,Beschaffung/Erhalt von Information*,Informationsmenge,Informationsdefizite,Information* fehl*/unvollständig/unzureichend,Informationen nicht aktuell,Information* ungünstig/schlecht/unübersichtlich/günstig/gut/übersichtlich dargestellt,Darstellung von Information* ist ungünstig/schlecht/unübersichtlich/günstig/gut/übersichtlich,zu hohe/geringe/unzureichende/umfangreiche Menge an Information*,Informationsmenge zu hoch/gering/unzureichend/umfangreich",
+        "Variabilität": "Aufgabenvielfalt,Anforderungsvielfalt,Einsatz/einsetzen/verwenden/brauchen/gebrauchen/benötigen verschiedener/unterschiedlicher/mehrerer Fähigkeiten/Fertigkeiten/Wissen,Wiederholung/Wiederholungshäufigkeit von Arbeit/Aufgaben/Arbeitsschritten,hoher Wiederholungsgrad der Aufgaben/Tätigkeit*,abwechselnde Aufgaben/Tätigkeit*,Abwechslung,Neues,unterschiedlich*,immer/nie/keine gleich/ähnlich/anders/unterschiedlich",
+        "Tätigkeitsspielraum": "Handlungsspielraum,Freiheitsgrade,Freiheit*,Einflussmöglichkeiten,inhaltliche/zeitliche Freiheitsgrade,festgelegt*/vorgegeben* Zeit*/Reihenfolge,wann welche Arbeit*/Tätigkeit*,wie lange/wie viel Zeit,keine/mangelnde/unzureichende Möglichkeit*/Freiheit*/Option* Arbeit*/Tätigkeit*/Aufgabe* zu unterbrechen/pausieren,fehlende* Einfluss*,feste* Vorgaben",
+        "Zeitdruck": "Menge/Anzahl/Vielzahl/Masse geforderte*/verlangt*/anstehende*/zu bewältigende* Arbeit/Aufgaben/Kundenanfragen/E-Mails/Nachrichten/Aufträge,verfügbare* Zeit/Minuten,zu hoch/viel,unvorhergesehen*,zusätzlich*/weitere Arbeit*",
+        "Arbeitsunterbrechungen": "Unvorhergesehen*/ungeplant*/überraschend*/plötzlich*/unangekündigt*/ohne Ankündigung*, Unterbrechung*/Störung*/Behinder*,gleichzeitig*/parallel* verschieden* Aufgaben,zwischen,hin und her/wechseln,Neubeginn/Neustart/anfangen/beginnen",
+        "Soziale Stressoren": "Kund*/Kolleg*,unhöflich/frech/dreist/unangenehm/forder*/aggress*/unfreundlich/provo*/unerhört/unglaublich/harsch,Tonfall/Tonart/Ausdruck",
+        "Feedback/Anerkennung": "Wertschätz*/wertgeschätz*/Anerkenn*/sehen/gesehen/wahrgenommen/wahrnehmen/schätz*/geschätz*/nett/lieb/herzlich/freund*",
+        "Soziale Unterstützung": "Unterstütz*/geholfen/helfen/support*/eingesprungen/ausgeholfen/übernommen/abgenommen/angeboten/Angebot"
+    },
+    "Arbeitsgestaltung":{
+        "Rollenunklarheit": "Ziel*/Aufgaben/Bewertung*/Kriterien/Anleitung*/Einweisung*/Erklärung*/Beschreibung*/Instruktion*,müssen/sollten/sollen,klar*/widerspruchsfrei*/eindeutig*/präzise*,angegeben/benannt/beschrieben",
+        "Informationsprobleme": "verfügbar*/Verfügbarkeit von Information*,Beschaff*/Erhalt*,Informationsmenge/Menge,Informationsdefizite/Defizit*,übersichtlich/günstig/gut,dargestell*/Darstellung,angemessen*/nicht zu viel/nicht zu umfangreich",
+        "Variabilität": "Aufgabenvielfalt,Anforderungsvielfalt,Vielfalt/vielfältig*,Einsatz/einsetzen/verwenden/brauchen/gebrauchen/benötigen verschieden*/unterschiedliche*/mehrere* Fähigkeiten/Fertigkeiten/Wissen,wenig* Wiederholung*,Wiederholungshäufigkeit von Arbeit/Aufgaben/Arbeitsschritten,hoher Wiederholungsgrad der Aufgaben/Tätigkeit*,abwechselnde Aufgaben/Tätigkeit*,Abwechslung,Neues,unterschiedlich*,immer/nie/keine gleich/ähnlich/anders/unterschiedlich",
+        "Tätigkeitsspielraum": "Handlungsspielraum,Freiheitsgrade,Freiheit*,inhaltliche/zeitliche Freiheitsgrade,nicht festgelegt*/nicht vorgegeben,frei* Reihenfolge,Freiheit*/Option*,unterbrechen/pausieren,Einfluss*,kein* Vorgabe*",
+        "Zeitdruck": "Menge/Anzahl/Vielzahl/Masse,Arbeit/Aufgaben/Kundenanfragen/E-Mails/Nachrichten/Aufträge,ausreichen* Zeit/Minuten",
+        "Arbeitsunterbrechungen": "Unvorhergesehen*/ungeplant*/überraschend*/plötzlich*/unangekündigt*/ohne Ankündigung*, Unterbrechung*/Störung*/Behinder*,gleichzeitig*/parallel* verschieden* Aufgaben,zwischen,hin und her/wechseln,Neubeginn/Neustart/anfangen/beginnen",
+        "Soziale Stressoren": "Höflich/angenehm/freundlich/,Kommunikation/Umgang",
+        "Feedback/Anerkennung": "Wertschätz*/wertgeschätz*/Anerkenn*/sehen/gesehen/wahrgenommen/wahrnehmen/schätz*/geschätz*/nett/lieb/herzlich/freund*",
+        "Soziale Unterstützung": "Unterstütz*/geholfen/helfen/support*/eingesprungen/ausgeholfen/übernommen/abgenommen/angeboten/Angebot"
+    }
+}

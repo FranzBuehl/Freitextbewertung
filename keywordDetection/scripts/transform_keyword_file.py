@@ -1,7 +1,7 @@
 import json
 
 # Opening JSON file
-file = open("../modells/keywordDetection/assets/keywords_raw.json", encoding="utf-8")
+file = open("../assets/keywords_raw.json", encoding="utf-8")
 
 # returns JSON object as
 # a dictionary
@@ -39,7 +39,7 @@ for competence in data:
         pattern = 'r' +'"' + keywords.replace("*", "(\w+)?").replace("/", "|").replace(",", "|")+ '"'
         out[name] = pattern
 
-with open("../modells/keywordDetection/assets/keywords.json", "w", encoding="utf-8") as file:
+with open("../assets/keywords.json", "w", encoding="utf-8") as file:
     json.dump(out, file, ensure_ascii=False, indent=4)
 
 # Closing file

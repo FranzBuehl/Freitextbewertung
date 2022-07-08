@@ -1,6 +1,6 @@
 class QuestionMapper():
     @staticmethod
-    def getName(id):
+    def get_name(id: int):
         if(id == 0):
             return "Arbeitsanalyse/Rollenunklarheit"
         elif(id == 1):
@@ -37,3 +37,9 @@ class QuestionMapper():
             return "Arbeitsgestaltung/Feedback/Anerkennung"
         elif(id == 17):
             return "Arbeitsgestaltung/Soziale Unterstützung"
+
+    @staticmethod
+    def has_sample_solution(id: int):
+        if id >8:
+            return True
+        return False

@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
 
-class QuizSolution(BaseModel):
+class Exercise(BaseModel):
     questionId: int
-    text: str
+    solution: str

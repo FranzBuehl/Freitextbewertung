@@ -1,11 +1,11 @@
 import json
 
 # Opening JSON file
-f = open('../assets/generated_output.jsonl', encoding='utf-8')
+file = open('../assets/generated_output.jsonl', encoding='utf-8')
 
 # returns JSON object as
 # a dictionary
-data = json.load(f)
+data = json.load(file)
 
 # Iterating through the json
 # list
@@ -30,9 +30,9 @@ for i in data:
 
     count += 1
 
-with open('../assets/generated_data-fixed.jsonl', 'w', encoding='utf-8') as f:
-    json.dump(out, f, ensure_ascii=False, indent=4)
+with open('../assets/generated_data-fixed.jsonl', 'w', encoding='utf-8') as file:
+    json.dump(out, file, ensure_ascii=False, indent=4)
 
 # Closing file
-f.close()
+file.close()
 

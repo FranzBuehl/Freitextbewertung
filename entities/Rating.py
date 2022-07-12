@@ -1,12 +1,12 @@
 class Rating:
     foundKeywords: [str]
     keywordPoints: int
-    maxKeywordPoints: int
+    maxPointsKeyword: int
     similarityScore: float = 0.0
     similarityPoints: int = 0
-    maxSimilaityPoints: int
+    maxPointsSimilaity: int
 
-    def __init__(self, maxKeywordPoints: int, maxSimilaityPoints: int):
-        self.maxKeywordPoints = maxKeywordPoints
-        self.maxSimilaityPoints = maxSimilaityPoints
+    def __init__(self, maxPointsKeyword: int, maxPointsSimilaity: int):
+        self.maxPointsKeyword = maxPointsKeyword
+        self.maxPointsSimilaity = maxPointsSimilaity
 

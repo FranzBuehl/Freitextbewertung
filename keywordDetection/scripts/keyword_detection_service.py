@@ -1,7 +1,7 @@
 import json
 import re
 
-from entities.QuizSolution import QuizSolution
+from entities.Exercise import Exercise
 from helper.QuestionMapper import QuestionMapper
 
 #
@@ -10,11 +10,11 @@ from helper.QuestionMapper import QuestionMapper
 #     keywordFile = open("../assets/keywords.json", encoding="utf-8")
 #     keywords = json.load(keywordFile)
 
-def get_keywords(quizSolution: QuizSolution):
+def get_keywords(exercise: Exercise):
     keywordFile = open("keywordDetection/assets/keywords.json", encoding="utf-8")
     keywords = json.load(keywordFile)
-    questionId = quizSolution.questionId
-    solution = quizSolution.text
+    questionId = exercise.questionId
+    solution = exercise.solution
     pattern = keywords[QuestionMapper.get_name(questionId)]
     spans = []
 

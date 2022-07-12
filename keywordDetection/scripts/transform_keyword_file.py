@@ -8,7 +8,7 @@ file = open("../assets/keywords_raw.json", encoding="utf-8")
 data = json.load(file)
 out = {}
 
-def addCases(keywords):
+def add_cases(keywords):
     """ Adds regex for lower and upper case at the beginning of every word
     Example:
         keywords = "This is an Example
@@ -35,7 +35,7 @@ for competence in data:
    for gameParameter in data[competence]:
         name = competence + "/" + gameParameter
         keywords = data[competence][gameParameter]
-        keywords = addCases(keywords)
+        keywords = add_cases(keywords)
         pattern = 'r' +'"' + keywords.replace("*", "(\w+)?").replace("/", "|").replace(",", "|")+ '"'
         out[name] = pattern
 

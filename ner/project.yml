@@ -15,7 +15,7 @@ vars:
 
 # These are the directories that the project needs. The project CLI will make
 # sure that they always exist.
-directories: ["assets", "corpus", "configs", "training", "../../scripts", "packages"]
+directories: ["assets", "corpus", "configs", "training", "scripts", "packages"]
 
 # Assets that should be downloaded or available in the directory. We're shipping
 # them with the project, so they won't have to be downloaded.
@@ -50,12 +50,12 @@ commands:
   - name: "convert"
     help: "Convert the data to spaCy's binary format"
     script:
-      - "python ../../scripts/convert.py ${vars.lang} assets/${vars.train} corpus/train.spacy"
-      - "python ../../scripts/convert.py ${vars.lang} assets/${vars.dev} corpus/dev.spacy"
+      - "python scripts/convert.py ${vars.lang} assets/${vars.train} corpus/train.spacy"
+      - "python scripts/convert.py ${vars.lang} assets/${vars.dev} corpus/dev.spacy"
     deps:
       - "assets/${vars.train}"
       - "assets/${vars.dev}"
-      - "../../scripts/convert.py"
+      - "scripts/convert.py"
     outputs:
       - "corpus/train.spacy"
       - "corpus/dev.spacy"

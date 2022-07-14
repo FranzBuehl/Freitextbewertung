@@ -23,7 +23,7 @@ def add_to_output(texts: [str], category: str):
         output.append(line)
 
 # Opening JSON file
-file = open('../semanticSimilarity/assets/sample_solutions.json', encoding='utf-8')
+file = open('../../semanticSimilarity/assets/sample_solutions.json', encoding='utf-8')
 # returns JSON object as dictionary
 sampleSolutions = json.load(file)
 output = []

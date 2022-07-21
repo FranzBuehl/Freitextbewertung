@@ -18,16 +18,16 @@ def evaluate_chat_answer(query: ChatRequestModel):
     um eine passende Rückmeldung zu geben
     """
     service = ChatService()
-    response = service.handle_chat_request(query.question, query.answer)
-    return {"response": response}
+    response, success = service.handle_chat_request(query.question, query.answer)
+    return {"response": response, "success": success}
 
 @app.post("/chat/answer", summary="Answers Chat-Question", response_model=ChatResponseModel)
 def answer_chat_question(query: ChatRequestModel):
     """Erzeugt eine Antwort für eine Frage aus dem Chat
     """
     service = ChatService()
-    response = service.handle_chat_request(query.question)
-    return {"response": response}
+    response, success = service.handle_chat_request(query.question)
+    return {"response": response, "success": success}
 
 @app.post("/quiz/assessment")
 def assess_quiz(request: QuizRequestModel):

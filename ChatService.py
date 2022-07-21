@@ -38,16 +38,16 @@ class ChatService:
         #Gibt es eine Antwort vom Spieler?
         if len(answer):
             if self.is_answer_correct(answer, property):
-                return self.create_response_text(feedbackTexts.iloc[:, 1], 7)
+                return [self.create_response_text(feedbackTexts.iloc[:, 1], 7), True]
             else:
-                return self.create_response_text(feedbackTexts.iloc[:, 0], 7)
+                return [self.create_response_text(feedbackTexts.iloc[:, 0], 7), False]
         else:
             if property: #Gibt es die gesuchte Property?
                 answerText = self.create_response_text(answerTexts, 4, 2)
                 answerText = str(answerText).replace('<Experten-Info>', str(property))
-                return answerText
+                return [answerText, True]
             else:
-                return self.create_response_text(answerTexts.iloc[:, 3], 4)
+                return [self.create_response_text(answerTexts.iloc[:, 3], 4), False]
 
     def is_answer_correct(self, answer, property):
         return str(property) in str(answer)

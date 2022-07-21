@@ -1,8 +1,8 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy Project: Demo NER in a new pipeline (Named Entity Recognition)
+# 🪐 spaCy Project: FastAPI integration
 
-A minimal demo NER project for spaCy v3 adapted from the spaCy v2 [`train_ner.py`](https://github.com/explosion/spaCy/blob/v2.3.x/examples/training/train_ner.py) example script for creating an NER component in a new pipeline.
+Use [FastAPI](https://fastapi.tiangolo.com/) to serve your spaCy models and host modern REST APIs. To install the dependencies and start the server, you can run `spacy project run start`. To explore the REST API interactively, navigate to `http://127.0.0.1:5000/docs` in your browser. See the examples for how to query the API using Python or JavaScript.
 
 ## 📋 project.yml
 
@@ -18,14 +18,8 @@ Commands are only re-run if their inputs have changed.
 
 | Command | Description |
 | --- | --- |
-| `download` | Download a spaCy model with pretrained vectors |
-| `convert` | Convert the data to spaCy's binary format |
-| `create-config` | Create a new config with an NER pipeline component |
-| `train` | Train the NER model |
-| `train-with-vectors` | Train the NER model with vectors |
-| `evaluate` | Evaluate the model and export metrics |
-| `package` | Package the trained model as a pip package |
-| `visualize-model` | Visualize the model's output interactively using Streamlit |
+| `install` | Install dependencies and download models |
+| `serve` | Serve the models via a FastAPI REST API using the given host and port |
 
 ### ⏭ Workflows
 
@@ -36,17 +30,5 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `convert` &rarr; `create-config` &rarr; `train` &rarr; `evaluate` |
+| `start` | `install` &rarr; `serve` |
 
-### 🗂 Assets
-
-The following assets are defined by the project. They can
-be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
-in the project directory.
-
-| File | Source | Description |
-| --- | --- | --- |
-| [`assets/train.json`](assets/ner/train.json) | Local | Demo training data converted from the v2 `train_ner.py` example with `srsly.write_json("train.json", TRAIN_DATA)` |
-| [`assets/dev.json`](assets/ner/dev.json) | Local | Demo development data |
-
-<!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->

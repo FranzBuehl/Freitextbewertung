@@ -14,6 +14,7 @@ directories: ["scripts"]
 
 workflows:
   start:
+    - install
     - serve
 
 # Project commands, specified in a style similar to CI config files (e.g. Azure
@@ -21,6 +22,12 @@ workflows:
 # via "spacy project run [command] [path]". The help message is optional and
 # shown when executing "spacy project run [optional command] [path] --help".
 commands:
+  - name: "install"
+    help: "Install dependencies and download models"
+    script:
+      - "pip install -r requirements.txt"
+      - "./scripts/download_models.sh"
+
   - name: "serve"
     help: "Serve the models via a FastAPI REST API using the given host and port"
     script:

@@ -1,5 +1,16 @@
 spacy-streamlit>=1.0.0a0
 pydantic>=1.0.0,<2.0.0
-fastapi>=0.61.1,<0.62.0
+fastapi~=0.78.0
 aiofiles
 uvicorn>=0.11.6,<0.12.0
+spacy>=3.3.1
+srsly~=2.4.3
+typer~=0.4.1
+setuptools~=61.2.0
+pandas~=1.4.2
+shap~=0.41.0
+thinc~=8.0.17
+numpy~=1.22.4
+scikit-learn~=1.0.2
+matplotlib~=3.5.1
+nlpaug~=1.1.11

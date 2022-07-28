@@ -1,5 +1,5 @@
 from datetime import datetime
-import ExerciseAssessment
+from entities import ExerciseAssessment
 
 
 class QuizAssessment():
@@ -16,4 +16,15 @@ class QuizAssessment():
         for assessment in assessments:
             self.points += assessment.rating.similarityPoints + assessment.rating.keywordPoints
             self.maxPoints += assessment.rating.maxPointsSimilaity + assessment.rating.maxPointsKeyword
+
+
+    def to_dictionary(self):
+        dict = {}
+        dict['userId'] = self.userId
+        dict['creation'] = self.creation
+        dict['assessments'] = [assessment.to_dictionary() for assessment in self.assessments]
+        dict['points'] = self.points
+        dict['maxPoints'] = self.maxPoints
+
+        return dict
 

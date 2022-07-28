@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from ChatService import ChatService
 from assessment_service import assess
+from entities import ChatAnswerResponseModel
 from entities.ChatRequestModel import ChatRequestModel
 from entities.ChatResponseModel import ChatResponseModel
 from entities.QuizRequestModel import QuizRequestModel
@@ -18,8 +19,8 @@ def evaluate_chat_answer(query: ChatRequestModel):
     um eine passende Rückmeldung zu geben
     """
     service = ChatService()
-    response, success = service.handle_chat_request(query.question, query.answer)
-    return {"response": response, "success": success}
+    success = service.handle_chat_request(query.question, query.answer)
+    return {"success": success}
 
 @app.post("/chat/answer", summary="Answers Chat-Question", response_model=ChatResponseModel)
 def answer_chat_question(query: ChatRequestModel):
@@ -31,7 +32,7 @@ def answer_chat_question(query: ChatRequestModel):
 
 @app.post("/quiz/assessment")
 def assess_quiz(request: QuizRequestModel):
-    return assess(request)
+    assess(request)
 
 
 # @app.post("/quiz/update")

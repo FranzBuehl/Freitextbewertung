@@ -1,53 +1,102 @@
 import json
+import random
 import timeit
-
-import nlpaug.augmenter.char as nac
 import nlpaug.augmenter.word as naw
-import nlpaug.augmenter.sentence as nas
+
+# def set_category(category: str):
+#     output = {}
+#     categories = ["Rollenunklarheit", "Informationsprobleme", "Variabilität", "Tätigkeitsspielraum", "Zeitdruck", "Arbeitsunterbrechungen", "Soziale Stressoren", "Feedback/Anerkennung", "Soziale Unterstützung"]
+#     category = category[2:] # remove e.g. 2/
+#     for cat in categories:
+#         if cat == category:
+#             output[cat] = 1.0
+#         else:
+#             output[cat] = 0.0
+#     output['Unbekannt'] = 0.0
+#     return output
+#
+# def add_to_output(texts: [str], category: str):
+#     for text in texts:
+#         line = {'text': text, 'cats': set_category(category)}
+#         output.append(line)
+#
+# def augument_texts(aug_p: float):
+#     augSubstitute = naw.ContextualWordEmbsAug(model_path='bert-base-german-cased', aug_p=aug_p, action="substitute", device="cuda")
+#     augInsert = naw.ContextualWordEmbsAug(model_path='bert-base-german-cased', aug_p=aug_p, action="insert", device="cuda")
+#
+#     for key in sampleTexts:
+#         text = sampleTexts[key]
+#         print(key, text)
+#         textsWithSubstitution = augSubstitute.augment(text, 40)
+#         add_to_output(textsWithSubstitution, key)
+#
+#         textsWithInsert = augInsert.augment(text, 40)
+#         add_to_output(textsWithInsert, key)
+#
+#
+# # Opening JSON file
+# file = open('../assets/sample_texts_textcat.json', encoding='utf-8')
+# # returns JSON object as dictionary
+# sampleTexts = json.load(file)
+# file.close()
+#
+# output = []
+#
+#
+# start = timeit.default_timer()
+#
+# # augument_texts(0.1)
+# # now = timeit.default_timer()
+# # print(len(output), 'Datensätze generiert - Laufzeit:', (now-start)/60, 'Minuten')
+# #
+# # augument_texts(0.2)
+# # now = timeit.default_timer()
+# # print(len(output), 'Datensätze generiert - Laufzeit:', (now-start)/60, 'Minuten')
+#
+# augument_texts(0.3)
+# now = timeit.default_timer()
+# print(len(output), 'Datensätze generiert - Laufzeit:', (now-start)/60, 'Minuten')
+#
+# # augument_texts(0.4)
+# # now = timeit.default_timer()
+# # print(len(output), 'Datensätze generiert - Laufzeit:', (now-start)/60, 'Minuten')
+#
+# #Add texts with cat = Unbekannt
+# fileUnknown= open('../assets/cat_unknown.json', encoding='utf-8')
+# examplesUnknown = json.load(fileUnknown)
+# output.append(examplesUnknown)
+# fileUnknown.close()
+#
+# with open('../assets/text_cat_data.json', "w", encoding="utf-8") as file:
+#     json.dump(output, file, ensure_ascii=False, indent=4)
+#
+# end = timeit.default_timer()
+#
+# print('Datengenerierung Beendet - Laufzeit:', (end-start)/60, 'Minuten')
+# # Closing file
+# file.close()
 
 
-def set_category(category: str):
-    output = {}
-    for cat in sampleSolutions.keys():
-        competenceLen = len('Arbeitsgestaltung/')
-        catName = cat[competenceLen:]
-        if cat == category:
-            output[catName] = 1.0
-        else:
-            output[catName] = 0.0
-    return output
-
-def add_to_output(texts: [str], category: str):
-    for text in texts:
-        line = {'text': text, 'cats': set_category(category)}
-        output.append(line)
-
-# Opening JSON file
-file = open('../../semanticSimilarity/assets/sample_solutions.json', encoding='utf-8')
+#####Splitting Data in dev and train
+file = open('../assets/text_cat_data.json', encoding='utf-8')
 # returns JSON object as dictionary
-sampleSolutions = json.load(file)
-output = []
+augumented_texts = json.load(file)
 
-# Augment French by BERT
-# aug = naw.ContextualWordEmbsAug(model_path='bert-base-multilingual-uncased', aug_p=0.1, action="substitute")
-augSubstitute = naw.ContextualWordEmbsAug(model_path='bert-base-german-cased', action="substitute", device="cuda")
-augInsert = naw.ContextualWordEmbsAug(model_path='bert-base-german-cased', action="insert", device="cuda")
+#shuffle texts
+random.shuffle(augumented_texts)
 
-start = timeit.default_timer()
+train = []
+dev = []
+for i in range(len(augumented_texts)):
+    if i%5 == 0: #20% dev
+        dev.append(augumented_texts[i])
+    else:
+        train.append(augumented_texts[i])
 
-for key in sampleSolutions:
-    text = sampleSolutions[key]
-    textsWithSubstitution = augSubstitute.augment(text, 80)
-    add_to_output(textsWithSubstitution, key)
+with open("../assets/dev.jsonl", "w", encoding="utf-8") as file:
+    json.dump(dev, file, ensure_ascii=False, indent=4)
+with open("../assets/train.jsonl", "w", encoding="utf-8") as file:
+    json.dump(train, file, ensure_ascii=False, indent=4)
 
-    textsWithInsert = augInsert.augment(text, 80)
-    add_to_output(textsWithInsert, key)
-
-with open("../assets/text_cat_data.json", "w", encoding="utf-8") as file:
-    json.dump(output, file, ensure_ascii=False, indent=4)
-
-end = timeit.default_timer()
-
-print('Datengenerierung Beendet - Laufzeit:', end-start, 'Sekunden')
 # Closing file
 file.close()

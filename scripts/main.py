@@ -2,8 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from ChatService import ChatService
-from assessment_service import assess
-from entities import ChatAnswerResponseModel
+from AssessmentService import AssessmentService
 from entities.ChatRequestModel import ChatRequestModel
 from entities.ChatResponseModel import ChatResponseModel
 from entities.QuizRequestModel import QuizRequestModel
@@ -15,8 +14,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"])
 
 @app.post("/chat/evaluation", summary="Evaluate Chat-Answer", response_model=ChatResponseModel)
 def evaluate_chat_answer(query: ChatRequestModel):
-    """Ermittelt die passende Lösung für eine Frage und vergleicht sie mit der gegebenen Antwort,
-    um eine passende Rückmeldung zu geben
+    """Evaluates if a Chat-Question is answered correct
     """
     service = ChatService()
     success = service.handle_chat_request(query.question, query.answer)
@@ -24,15 +22,18 @@ def evaluate_chat_answer(query: ChatRequestModel):
 
 @app.post("/chat/answer", summary="Answers Chat-Question", response_model=ChatResponseModel)
 def answer_chat_question(query: ChatRequestModel):
-    """Erzeugt eine Antwort für eine Frage aus dem Chat
+    """Extracts the searched Property from the product_lib and returns it
     """
     service = ChatService()
     response, success = service.handle_chat_request(query.question)
     return {"response": response, "success": success}
 
-@app.post("/quiz/assessment")
+@app.post("/quiz/assessment", summary="Assesses the quiz answers and assigns a competency")
 def assess_quiz(request: QuizRequestModel):
-    assess(request)
+    """Rates the Quiz Answers depending on keywords and semantic similarity to the sample solution.
+    Saves the result with the resulting competence."""
+    service = AssessmentService()
+    service.assess(request)
 
 
 # @app.post("/quiz/update")

@@ -4,7 +4,7 @@ description: "Pipeline for NER (Named Entity Recognition => Products and Product
 vars:
   lang: "de"
   # Set your GPU ID, -1 is CPU
-  gpu_id: -1
+  gpu_id: 0
   # Vectors model for train-with-vectors
   vectors_model: "de_core_news_lg"
 
@@ -33,7 +33,7 @@ workflows:
     - convert
     - create-config
     - train
-    # - train-with-vectors
+    - train-with-vectors
     - evaluate
     - package
 
@@ -106,11 +106,3 @@ commands:
       - "training/model-best"
     outputs_no_cache:
       - "packages/${vars.lang}_${vars.name}-${vars.version}/dist/${vars.lang}_${vars.name}-${vars.version}.tar.gz"
-
-  - name: "visualize-model"
-    help: "Visualize the model's output interactively using Streamlit"
-    script:
-      - "streamlit run scripts/visualize_model.py training/model-best \"I saw Shaka Khan in London.\""
-    deps:
-      - "scripts/visualize_model.py"
-      - "training/model-best"

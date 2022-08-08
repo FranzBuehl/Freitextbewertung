@@ -1,20 +1,20 @@
 convert:
   cmd: python -m spacy run convert
   script:
-    - python ../../scripts/convert.py de assets/train.json corpus/train.spacy
-    - python ../../scripts/convert.py de assets/dev.json corpus/dev.spacy
+    - python scripts/convert.py de assets/train.json corpus/train.spacy
+    - python scripts/convert.py de assets/dev.json corpus/dev.spacy
   deps:
     - path: assets/train.json
-      md5: ca9c820756017cc217c44dacda002c01
+      md5: f3b4539bef07b9f5008350e545d0442a
     - path: assets/dev.json
-      md5: b9da7f4035bfbb521cd1d13b1504288f
-    - path: ../../scripts/convert.py
-      md5: c7cd3994f4314f5f66757a21ff4b1d65
+      md5: 36bbea0ccce98a547b17d5f4e0142516
+    - path: scripts/convert.py
+      md5: 26a5ca230fbbafa8c01c5c85c46bea74
   outs:
     - path: corpus/train.spacy
-      md5: 2cd426d5ceebe892885555191f9ab168
+      md5: 7363deb6d1358904da9ce8babc5753d0
     - path: corpus/dev.spacy
-      md5: ac50d7040ee1591597f6b6804781c57b
+      md5: 103d1e7ed3e16e83ac31c11ae845f11f
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77
 create-config:
@@ -37,12 +37,12 @@ train:
     - path: configs/config.cfg
       md5: fb9588e2184f146d9fbbde9c76b29025
     - path: corpus/train.spacy
-      md5: 2cd426d5ceebe892885555191f9ab168
+      md5: 7363deb6d1358904da9ce8babc5753d0
     - path: corpus/dev.spacy
-      md5: ac50d7040ee1591597f6b6804781c57b
+      md5: 103d1e7ed3e16e83ac31c11ae845f11f
   outs:
     - path: training/model-best
-      md5: 63fcd370e7ae5593a72335a9a40284ee
+      md5: 474411090a6b4ba3a213c8cc066df70e
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77
 evaluate:
@@ -51,12 +51,12 @@ evaluate:
     - python -m spacy evaluate training/model-best corpus/dev.spacy --output training/metrics.json
   deps:
     - path: corpus/dev.spacy
-      md5: ac50d7040ee1591597f6b6804781c57b
+      md5: 103d1e7ed3e16e83ac31c11ae845f11f
     - path: training/model-best
-      md5: 63fcd370e7ae5593a72335a9a40284ee
+      md5: 474411090a6b4ba3a213c8cc066df70e
   outs:
     - path: training/metrics.json
-      md5: bb12d0e96be144b4174fe7d3ca8fbae9
+      md5: 3bcea201e8d6f7eb9f59d3bd519b8336
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77
 package:
@@ -66,9 +66,9 @@ package:
       --force
   deps:
     - path: training/model-best
-      md5: 63fcd370e7ae5593a72335a9a40284ee
+      md5: 474411090a6b4ba3a213c8cc066df70e
   outs:
     - path: packages/de_ner-0.0.0/dist/de_ner-0.0.0.tar.gz
-      md5: 725421c413d7d26492959f509d2697b5
+      md5: 48e7b866187cd668b2303c33c62e559d
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77

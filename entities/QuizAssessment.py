@@ -23,8 +23,8 @@ class QuizAssessment():
         dict['userId'] = self.userId
         dict['creation'] = self.creation
         dict['assessments'] = [assessment.to_dictionary() for assessment in self.assessments]
-        dict['points'] = self.points
-        dict['maxPoints'] = self.maxPoints
+        dict['pointsTotal'] = self.points
+        dict['maxPointsTotal'] = self.maxPoints
 
         return dict
 

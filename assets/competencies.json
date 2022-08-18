@@ -1,0 +1,359 @@
+[
+    {
+        "userId": "43245",
+        "creation": "18-08-2022 11:56:20",
+        "exerciseRatings": [
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.5558494065589248,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 10,
+                    "solution": "Die Darstellung der Informationen muss so gestaltet sein, dass ein schneller Überblick über alles möglich ist."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Darstellung"
+                    ],
+                    "keywordPoints": 1,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7033777811180489,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            }
+        ],
+        "explanationPath": "assets/explanations/43245_18-08-2022_11.56.20.html",
+        "pointsTotal": 6,
+        "maxPointsTotal": 12,
+        "competence": "Arbeitsanalyse - Level 3"
+    },
+    {
+        "userId": "43245",
+        "creation": "18-08-2022 13:45:06",
+        "exerciseRatings": [
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.5524061328967618,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 10,
+                    "solution": "Die Darstellung der Informationen muss so gestaltet sein, dass ein schneller Überblick über alles möglich ist."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Darstellung"
+                    ],
+                    "keywordPoints": 1,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7033777811180489,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 11,
+                    "solution": "Es sollte unterschiedliche Ziele bei den Anfragen geben, nicht immer die gleichen"
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "unterschiedliche",
+                        "immer"
+                    ],
+                    "keywordPoints": 2,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7114078492769621,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            }
+        ],
+        "explanationPath": "assets/explanations/43245_18-08-2022_13.45.06.html",
+        "pointsTotal": 10,
+        "maxPointsTotal": 18,
+        "competence": "Arbeitsanalyse - Level 3"
+    },
+    {
+        "userId": "43245",
+        "creation": "18-08-2022 13:47:09",
+        "exerciseRatings": [
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden. Eine Banane ist kein Gummiboot."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.37518983749340395,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 10,
+                    "solution": "Die Darstellung der Informationen muss so gestaltet sein, dass ein schneller Überblick über alles möglich ist."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Darstellung"
+                    ],
+                    "keywordPoints": 1,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7033777811180489,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 11,
+                    "solution": "Es sollte unterschiedliche Ziele bei den Anfragen geben, nicht immer die gleichen"
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "unterschiedliche",
+                        "immer"
+                    ],
+                    "keywordPoints": 2,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7114078492769621,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            }
+        ],
+        "explanationPath": "assets/explanations/43245_18-08-2022_13.47.09.html",
+        "pointsTotal": 10,
+        "maxPointsTotal": 18,
+        "competence": "Arbeitsanalyse - Level 3"
+    },
+    {
+        "userId": "43245",
+        "creation": "18-08-2022 15:44:12",
+        "exerciseRatings": [
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden. Eine Banane ist kein Gummiboot."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.37518983749340395,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 10,
+                    "solution": "Die Darstellung der Informationen muss so gestaltet sein, dass ein schneller Überblick über alles möglich ist."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Darstellung"
+                    ],
+                    "keywordPoints": 1,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7033777811180489,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 11,
+                    "solution": "Es sollte unterschiedliche Ziele bei den Anfragen geben, nicht immer die gleichen"
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "unterschiedliche",
+                        "immer"
+                    ],
+                    "keywordPoints": 2,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7114078492769621,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            }
+        ],
+        "explanationPath": "assets/explanations/43245_18-08-2022_15.44.12.html",
+        "pointsTotal": 10,
+        "maxPointsTotal": 18,
+        "competence": "Arbeitsanalyse - Level 3"
+    },
+    {
+        "userId": "43245",
+        "creation": "18-08-2022 15:52:04",
+        "exerciseRatings": [
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden. Eine Banane ist kein Gummiboot."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.37518983749340395,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 10,
+                    "solution": "Die Darstellung der Informationen muss so gestaltet sein, dass ein schneller Überblick über alles möglich ist."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Darstellung"
+                    ],
+                    "keywordPoints": 1,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7033777811180489,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 11,
+                    "solution": "Es sollte unterschiedliche Ziele bei den Anfragen geben, nicht immer die gleichen"
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "unterschiedliche",
+                        "immer"
+                    ],
+                    "keywordPoints": 2,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7114078492769621,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            }
+        ],
+        "explanationPath": "assets/explanations/43245_18-08-2022_15.52.04.html",
+        "pointsTotal": 10,
+        "maxPointsTotal": 18,
+        "competence": "Arbeitsanalyse - Level 3"
+    },
+    {
+        "userId": "43245",
+        "creation": "18-08-2022 20:24:12",
+        "exerciseRatings": [
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden. Eine Banane ist kein Gummiboot."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.37518983749340395,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 9,
+                    "solution": "Die Kriterien für korrekte oder falsche Antworten müssen eindeutig benannt werden. Eine Banane ist kein Gummiboot."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Kriterien",
+                        "müssen",
+                        "eindeutig",
+                        "benannt"
+                    ],
+                    "keywordPoints": 3,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.37518983749340395,
+                    "similarityPoints": 0,
+                    "maxPointsSimilaity": 3
+                }
+            },
+            {
+                "exercise": {
+                    "questionId": 10,
+                    "solution": "Die Darstellung der Informationen muss so gestaltet sein, dass ein schneller Überblick über alles möglich ist."
+                },
+                "rating": {
+                    "foundKeywords": [
+                        "Darstellung"
+                    ],
+                    "keywordPoints": 1,
+                    "maxPointsKeyword": 3,
+                    "similarityScore": 0.7033777811180489,
+                    "similarityPoints": 2,
+                    "maxPointsSimilaity": 3
+                }
+            }
+        ],
+        "explanationPath": "assets/explanations/43245_18-08-2022_20.24.12.html",
+        "pointsTotal": 9,
+        "maxPointsTotal": 18,
+        "competence": "Arbeitsanalyse - Level 3"
+    }
+]

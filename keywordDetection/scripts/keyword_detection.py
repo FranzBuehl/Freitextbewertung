@@ -4,12 +4,6 @@ import re
 from entities.Exercise import Exercise
 from helper.QuestionMapper import QuestionMapper
 
-#
-# def __init__(self):
-#     # load Keywords
-#     keywordFile = open("../assets/keywords.json", encoding="utf-8")
-#     keywords = json.load(keywordFile)
-
 def get_keywords(exercise: Exercise):
     keywordFile = open("keywordDetection/assets/keywords.json", encoding="utf-8")
     keywords = json.load(keywordFile)

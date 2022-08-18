@@ -11,7 +11,7 @@ vars:
   name: "ner"
   train: "train.json"
   dev: "dev.json"
-  version: "0.0.0"
+  version: "0.0.1"
 
 # These are the directories that the project needs. The project CLI will make
 # sure that they always exist.
@@ -31,11 +31,9 @@ assets:
 workflows:
   all:
     - convert
-    - create-config
     - train
-    - train-with-vectors
+#    - train-with-vectors
     - evaluate
-    - package
 
 # Project commands, specified in a style similar to CI config files (e.g. Azure
 # pipelines). The name is the command name that lets you trigger the command
@@ -59,13 +57,6 @@ commands:
     outputs:
       - "corpus/train.spacy"
       - "corpus/dev.spacy"
-
-  - name: "create-config"
-    help: "Create a new config with an NER pipeline component"
-    script:
-      - "python -m spacy init config --lang ${vars.lang} --pipeline ner configs/config.cfg --force"
-    outputs:
-      - "configs/config.cfg"
   - name: "train"
     help: "Train the NER model"
     script:
@@ -77,16 +68,16 @@ commands:
     outputs:
       - "training/model-best"
 
-  - name: "train-with-vectors"
-    help: "Train the NER model with vectors"
-    script:
-      - "python -m spacy train configs/config.cfg --output training/ --paths.train corpus/train.spacy --paths.dev corpus/dev.spacy --training.eval_frequency 10 --training.patience 50 --gpu-id ${vars.gpu_id} --initialize.vectors ${vars.vectors_model} --components.tok2vec.model.embed.include_static_vectors true"
-    deps:
-      - "configs/config.cfg"
-      - "corpus/train.spacy"
-      - "corpus/dev.spacy"
-    outputs:
-      - "training/model-best"
+#  - name: "train-with-vectors"
+#    help: "Train the NER model with vectors"
+#    script:
+#      - "python -m spacy train configs/config.cfg --output training/ --paths.train corpus/train.spacy --paths.dev corpus/dev.spacy --training.eval_frequency 10 --training.patience 50 --gpu-id ${vars.gpu_id} --initialize.vectors ${vars.vectors_model} --components.tok2vec.model.embed.include_static_vectors true"
+#    deps:
+#      - "configs/config.cfg"
+#      - "corpus/train.spacy"
+#      - "corpus/dev.spacy"
+#    outputs:
+#      - "training/model-best"
 
   - name: "evaluate"
     help: "Evaluate the model and export metrics"
@@ -97,12 +88,3 @@ commands:
       - "training/model-best"
     outputs:
       - "training/metrics.json"
-
-  - name: "package"
-    help: "Package the trained model as a pip package"
-    script:
-      - "python -m spacy package training/model-best packages --name ${vars.name} --version ${vars.version} --force"
-    deps:
-      - "training/model-best"
-    outputs_no_cache:
-      - "packages/${vars.lang}_${vars.name}-${vars.version}/dist/${vars.lang}_${vars.name}-${vars.version}.tar.gz"

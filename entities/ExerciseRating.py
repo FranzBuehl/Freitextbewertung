@@ -1,7 +1,7 @@
 from entities import Exercise, Rating
 
 
-class ExerciseAssessment():
+class ExerciseRating():
     exercise: Exercise
     rating: Rating
 

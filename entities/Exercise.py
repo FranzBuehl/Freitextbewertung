@@ -11,3 +11,5 @@ class Exercise(BaseModel):
         dict['solution'] = self.solution
 
         return dict
+
+

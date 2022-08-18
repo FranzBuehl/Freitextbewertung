@@ -1,6 +1,4 @@
-title: "Predicting whether a GitHub issue is about documentation (Text Classification)"
-description: "This project uses [spaCy](https://spacy.io) with annotated data from [Prodigy](https://prodi.gy) to train a **binary text classifier** to predict whether a GitHub issue title is about documentation. The pipeline uses the component `textcat_multilabel` in order to train a binary classifier using only one label, which can be True or False for each document. An equivalent alternative for a binary text classifier would be to use the `textcat` component with two labels, where exactly one of the two labels is True for each document."
-# Variables can be referenced across the project.yml using ${vars.var_name}
+title: "Predicts to which of the questions an answer belongs (Text Classification)"
 vars:
   config: "config.cfg"
   name: "textcat_docs"
@@ -15,14 +13,11 @@ spacy_version: ">=3.0.6,<4.0.0"
 # sure that they always exist.
 directories: ["assets", "training", "configs", "scripts", "corpus"]
 
-# Assets that should be downloaded or available in the directory. We're shipping
-# them with the project, so they won't have to be downloaded. But the
-# 'project assets' command still lets you verify that the checksums match.
 assets:
   - dest: "assets/${vars.train}.jsonl"
-    description: "JSONL-formatted training data exported from Prodigy, annotated with `DOCUMENTATION` (661 examples)"
+    description: "JSONL-formatted training data"
   - dest: "assets/${vars.dev}.jsonl"
-    description: "JSONL-formatted development data exported from Prodigy, annotated with `DOCUMENTATION` (500 examples)"
+    description: "JSONL-formatted development data"
 
 # Workflows are sequences of commands (see below) executed in order. You can
 # run them via "spacy project run [workflow]". If a commands's inputs/outputs
@@ -44,8 +39,8 @@ commands:
       - "python scripts/preprocess.py assets/${vars.train}.jsonl corpus/${vars.train}.spacy"
       - "python scripts/preprocess.py assets/${vars.dev}.jsonl corpus/${vars.dev}.spacy"
     deps:
-      - "assets/${vars.train}.jsonl"
-      - "assets/${vars.dev}.jsonl"
+      - "assets/${vars.train}.json"
+      - "assets/${vars.dev}.json"
       - "scripts/preprocess.py"
     outputs:
       - "corpus/${vars.train}.spacy"

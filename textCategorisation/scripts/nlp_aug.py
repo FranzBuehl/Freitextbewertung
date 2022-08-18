@@ -82,9 +82,9 @@ for i in range(len(augumentedTexts)):
     else: #80% test
         train.append(augumentedTexts[i])
 
-with open("../assets/dev.jsonl", "w", encoding="utf-8") as file:
+with open("../assets/dev.json", "w", encoding="utf-8") as file:
     json.dump(dev, file, ensure_ascii=False, indent=4)
-with open("../assets/train.jsonl", "w", encoding="utf-8") as file:
+with open("../assets/train.json", "w", encoding="utf-8") as file:
     json.dump(train, file, ensure_ascii=False, indent=4)
 
 # Closing file

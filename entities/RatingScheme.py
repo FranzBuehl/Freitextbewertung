@@ -7,3 +7,5 @@ class RatingScheme:
         self.pointsPerKeyword = pointsPerKeyword
         self.maxPointsKeywords = maxPointsKeywords
         self.pointsForSimilarity = pointsForSimilarity
+
+

@@ -1,26 +1,27 @@
 import json
 from os.path import exists
 
-from entities.QuizAssessment import QuizAssessment
+from entities.QuizRating import QuizRating
 from entities.RatingScheme import RatingScheme
-from entities.ExerciseAssessment import ExerciseAssessment
+from entities.ExerciseRating import ExerciseRating
 from entities.QuizRequestModel import QuizRequestModel
 from entities.Rating import Rating
 from helper.QuestionMapper import QuestionMapper
-from keywordDetection.scripts.keyword_detection_service import get_keywords
-from semanticSimilarity.scripts.semantic_similarity_service import get_similarity_score
+from keywordDetection.scripts.keyword_detection import get_keywords
+from semanticSimilarity.scripts.semantic_similarity import get_similarity_score
 
 #TODO read ratingScheme from config-tool
+
 ratingScheme = RatingScheme(1, 3, {0.6: 1, 0.7: 2, 0.8: 3})
 
-class AssessmentService:
+class QuizService:
 
-    def assess(self, request: QuizRequestModel):
-        assessments = []
+    def rate(self, request: QuizRequestModel):
+        ratings = []
 
         for exercise in request.quiz:
-            exerciseAssessment = ExerciseAssessment()
-            exerciseAssessment.exercise = exercise
+            exerciseRatings = ExerciseRating()
+            exerciseRatings.exercise = exercise
 
             if(QuestionMapper.has_sample_solution(exercise.questionId)):
                                         #Get last Element
@@ -47,34 +48,34 @@ class AssessmentService:
             else:
                 rating.keywordPoints = len(rating.foundKeywords) * ratingScheme.pointsPerKeyword
 
-            exerciseAssessment.rating = rating
+            exerciseRatings.rating = rating
 
             print('similarityScore:', rating.similarityScore, 'similarityPoints:', rating.similarityPoints, 'foundKeywords:', rating.foundKeywords, 'keywordPoints:', rating.keywordPoints)
-            assessments.append(exerciseAssessment)
+            ratings.append(exerciseRatings)
 
-        quizAssessment = QuizAssessment(request.user, assessments)
-        self.save_as_competence(quizAssessment)
+        quizRating = QuizRating(request.user, ratings)
+        self.save_as_competence(quizRating)
 
-        return quizAssessment.creation
+        return quizRating
 
-    def save_as_competence(self, assessment: QuizAssessment):
+    def save_as_competence(self, rating: QuizRating):
 
-        if exists('./assets/competencies.jsonl'):
+        if exists('assets/competencies.json'):
             # read file
-            with open('./assets/competencies.jsonl', 'r', encoding='utf-8') as file:
+            with open('assets/competencies.json', 'r', encoding='utf-8') as file:
                 data = json.load(file)
             file.close()
         else:
             data = []
 
-        assessmentDict = assessment.to_dictionary()
-        assessmentDict['competence'] = self.map_competence(assessment.points, assessment.maxPoints)
-        data.append(assessmentDict)
+        ratingDict = rating.to_dictionary()
+        ratingDict['competence'] = self.map_competence(rating.points, rating.maxPoints)
+        data.append(ratingDict)
 
         #write file
-        with open('./assets/competencies.jsonl', 'w', encoding='utf-8') as file:
+        with open('assets/competencies.json', 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
-        # close the fileself,
+
         file.close()
 
     def map_competence(self, points, maxPoints):

@@ -5,7 +5,7 @@ from random import randint
 
 class ChatService:
     def handle_chat_request(self, question, answer=''):
-        nlp = spacy.load('ner/packages/de_ner-0.0.0/de_ner/de_ner-0.0.0')
+        nlp = spacy.load('ner/training/model-best')
         doc = nlp(question)
         property = self.get_requested_property(doc.ents)
         return self.create_chat_response(property, answer)
@@ -44,7 +44,7 @@ class ChatService:
             if property: #Gibt es die gesuchte Property?
                 return [property, True]
             else:
-                return ["", False]
+                return [None, False]
 
     def is_answer_correct(self, answer, property):
         return str(property) in str(answer)

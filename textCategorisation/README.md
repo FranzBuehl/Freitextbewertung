@@ -1,8 +1,8 @@
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy Project: Predicting whether a GitHub issue is about documentation (Text Classification)
+# 🪐 spaCy Project: Predicts to which of the questions an answer belongs (Text Classification)
 
-This project uses [spaCy](https://spacy.io) with annotated data from [Prodigy](https://prodi.gy) to train a **binary text classifier** to predict whether a GitHub issue title is about documentation. The pipeline uses the component `textcat_multilabel` in order to train a binary classifier using only one label, which can be True or False for each document. An equivalent alternative for a binary text classifier would be to use the `textcat` component with two labels, where exactly one of the two labels is True for each document.
+This project uses [spaCy](https://spacy.io) with data that is generated with nlpaug (nlp_aug.py) to train a **text classifier** to predict to which of the questions of the final Quiz an answer belongs. The pipeline uses the component `textcat_multilabel` in order to train the classifier.
 
 ## 📋 project.yml
 
@@ -35,66 +35,9 @@ inputs have changed.
 
 ### 🗂 Assets
 
-The following assets are defined by the project. They can
-be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
-in the project directory.
+The following assets are defined by the project. 
 
-| File | Source | Description |
-| --- | --- | --- |
-| [`assets/docs_issues_training.jsonl`](../../../Downloads/projects-3/projects-3/tutorials/textcat_docs_issues/assets/docs_issues_training.jsonl) | Local | JSONL-formatted training data exported from Prodigy, annotated with `DOCUMENTATION` (661 examples) |
-| [`assets/docs_issues_eval.jsonl`](../../../Downloads/projects-3/projects-3/tutorials/textcat_docs_issues/assets/docs_issues_eval.jsonl) | Local | JSONL-formatted development data exported from Prodigy, annotated with `DOCUMENTATION` (500 examples) |
-
-<!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->
-
-## 📚 Data
-
-Labelling the data with [Prodigy](https://prodi.gy) took about two hours and was
-done manually using the binary classification interface. The raw text was
-sourced from the [GitHub API](https://developer.github.com/v3/) using
-the search queries `"docs"`, `"documentation"`, `"readme"` and `"instructions"`.
-
-### Training and evaluation data format
-
-The training and evaluation datasets are distributed in Prodigy's simple JSONL
-(newline-delimited JSON) format. Each entry contains a `"text"`, the `"label"`
-and an `"answer"` (`"accept"` if the label applies, `"reject"` if it doesn't
-apply). Here are two simplified example entries:
-
-```json
-{
-  "text": "Add FAQ's to the documentation",
-  "label": "DOCUMENTATION",
-  "answer": "accept"
-}
-```
-
-```json
-{
-  "text": "Proposal: deprecate SQTagUtil.java",
-  "label": "DOCUMENTATION",
-  "answer": "reject"
-}
-```
-
-### Data creation workflow
-
-```bash
-prodigy mark docs_issues_data ./raw_text.jsonl --label DOCUMENTATION --view-id classification
-```
-
-<img width="250" src="https://user-images.githubusercontent.com/13643239/69798875-7d3a5280-11d2-11ea-94d2-e04f9e18b69e.png" alt="" align="right">
-
-## 🚘🐱 Live demo and model download
-
-We also trained
-[a model](https://autocat.apps.allenai.org/?uid=d9cd6f8c-8f1d-4367-b1ae-b6264bfe2cda)
-using Allen AI's [Autocat](https://autocat.apps.allenai.org) app (a web-based
-tool for training, visualizing and showcasing spaCy text classification models).
-You can try out the classifier in real-time and see the updated predictions as
-you type. You can also evaluate it on your own data, download the model Python
-package or just `pip install` it with one command to try it locally.
-[**View model here.**](https://autocat.apps.allenai.org/?uid=d9cd6f8c-8f1d-4367-b1ae-b6264bfe2cda)
-
-To use the JSONL data in Autocat, we added `"labels": ["DOCUMENTATION"]` to all
-examples with `"answer": "accept"` and `"labels": ["N/A"]` to all examples with
-`"answer": "reject"`.
+| File                                                                                                                       | Source | Description                                                                                                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------| --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`assets/train.json`]| Local | JSONL-formatted training data (80%) generated with nlpaug and the script scripts/nlp_aug.py. Manual created data for the category 'Unbekannt' from assets/cat_unknown.json are also added by the script. |
+| [`assets/dev.jsonl`] | Local | JSONL-formatted test data generated (20%) with nlpaug and the script scripts/nlp_aug.py. Manual created data for the category 'Unbekannt' from assets/cat_unknown.json are also added by the script.     |

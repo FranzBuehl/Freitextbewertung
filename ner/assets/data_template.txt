@@ -1,4 +1,5 @@
-// This template defines different ways to ask for the location of toilets (Chatette version)
+// This template defines different ways to ask product details
+// Generate Data with python -m chatette <path_to_template> -o <output_directory_path>
 %[&frage_nach_product_detail](1000)
     ~[begrüßung?] wie ist denn @[pc_detail] vom @[PC]?
     ~[begrüßung?] wie ist denn @[monitor_detail] vom @[MONITOR]?

@@ -16,14 +16,9 @@ Commands are only re-run if their inputs have changed.
 
 | Command | Description |
 | --- | --- |
-| `download` | Download a spaCy model with pretrained vectors |
 | `convert` | Convert the data to spaCy's binary format |
-| `create-config` | Create a new config with an NER pipeline component |
 | `train` | Train the NER model |
-| `train-with-vectors` | Train the NER model with vectors |
 | `evaluate` | Evaluate the model and export metrics |
-| `package` | Package the trained model as a pip package |
-| `visualize-model` | Visualize the model's output interactively using Streamlit |
 
 ### ⏭ Workflows
 
@@ -34,7 +29,7 @@ inputs have changed.
 
 | Workflow | Steps |
 | --- | --- |
-| `all` | `convert` &rarr; `create-config` &rarr; `train` &rarr; `evaluate` |
+| `all` | `convert` &rarr; `train` &rarr; `evaluate` |
 
 ### 🗂 Assets
 
@@ -42,9 +37,9 @@ The following assets are defined by the project. They can
 be fetched by running [`spacy project assets`](https://spacy.io/api/cli#project-assets)
 in the project directory.
 
-| File | Source | Description |
-| --- | --- | --- |
-| [`assets/train.json`](assets/ner/train.json) | Local | Demo training data converted from the v2 `train_ner.py` example with `srsly.write_json("train.json", TRAIN_DATA)` |
-| [`assets/dev.json`](assets/ner/dev.json) | Local | Demo development data |
+| File | Source | Description                                       |
+| --- | --- |---------------------------------------------------|
+| [`assets/train.json`](assets/ner/train.json) | Local | Generated train Data from data_template.txt       |
+| [`assets/dev.json`](assets/ner/dev.json) | Local | Generated development Data from data_template.txt |
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS END (do not remove) -->

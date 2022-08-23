@@ -10,7 +10,7 @@ class ChatService:
         property = self.get_requested_property(doc.ents)
         return self.create_chat_response(property, answer)
 
-    # Ermittle Property, nach der gefragt wurde
+    # Find property that was asked about
     def get_requested_property(self, ents):
         pcs, monitors, printer = self.read_product_lib()
         properties = [ent for ent in ents if 'PROPERTY' == ent.label_]
@@ -18,7 +18,8 @@ class ChatService:
 
         searchedProduct = ''
         productLib = pcs
-        # Verwende das erste erkannte Produkt, das in der Bibliothek ist
+
+        # Use the first recognized product that is in the library
         for product in products:
             if 'MONITOR' == product.label_:
                 productLib = monitors
@@ -34,14 +35,14 @@ class ChatService:
             return self.get_searched_property(searchedProduct, properties)
 
     def create_chat_response(self, property, answer):
-        #Gibt es eine Antwort vom Spieler?
+        #Is there an answer from the player?
         if len(answer):
             if self.is_answer_correct(answer, property):
                 return True
             else:
                 return False
         else:
-            if property: #Gibt es die gesuchte Property?
+            if property: #Did we find a property?
                 return [property, True]
             else:
                 return [None, False]
@@ -49,7 +50,7 @@ class ChatService:
     def is_answer_correct(self, answer, property):
         return str(property) in str(answer)
 
-    # TODO muss später über eine Schnittstelle eingelesen werden
+    # TODO must be read later via an API
     def read_product_lib(self):
         dict_df = pd.read_excel('assets/product_lib.xlsx',
                                 sheet_name=['Bibliothek - PCs', 'Bibliothek - Monitore', 'Bibliothek - Drucker'],
@@ -65,7 +66,7 @@ class ChatService:
             index += 1
         return -1
 
-    #Gibt die erste erkannte Property zurück, die das gegebene Produkt hat
+    #Returns the first recognized property that the given product has
     def get_searched_property(self, product, properties):
         propertyNames = product.keys()
         for property in properties:

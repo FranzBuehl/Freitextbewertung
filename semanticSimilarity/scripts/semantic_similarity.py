@@ -1,6 +1,5 @@
 import spacy_sentence_bert
 import json
-from helper.QuestionMapper import QuestionMapper
 
 # load one of the models listed at https://github.com/MartinoMensio/spacy-sentence-bert/
 nlp = spacy_sentence_bert.load_model('xx_stsb_xlm_r_multilingual')
@@ -11,8 +10,8 @@ file = open('semanticSimilarity/assets/sample_solutions.json', encoding='utf-8')
 sampleSolutions = json.load(file)
 
 
-def get_similarity_score(questionId: int, playerSolution: str):
-    sampleSolution = sampleSolutions[QuestionMapper.get_name(questionId)]
+def get_similarity_score(questionId: str, playerSolution: str):
+    sampleSolution = sampleSolutions[questionId]
     doc1 = nlp(sampleSolution)
     doc2 = nlp(playerSolution)
     return doc1.similarity(doc2)

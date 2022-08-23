@@ -2,3 +2,6 @@ configs
 corpus
 training
 packages
+_pycache_/*
+*/__pycache__/*
+*.pyc

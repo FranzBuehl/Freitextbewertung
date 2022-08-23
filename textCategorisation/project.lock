@@ -1,20 +1,20 @@
 preprocess:
   cmd: python -m spacy run preprocess
   script:
-    - python scripts/preprocess.py assets/train.jsonl corpus/train.spacy
-    - python scripts/preprocess.py assets/dev.jsonl corpus/dev.spacy
+    - python scripts/preprocess.py assets/train.json corpus/train.spacy
+    - python scripts/preprocess.py assets/dev.json corpus/dev.spacy
   deps:
-    - path: assets/train.jsonl
-      md5: 4e1683fb9b612dd7ed1b237bb1d19988
-    - path: assets/dev.jsonl
-      md5: 0f2cd61fe28895f662f260b6ad2cf730
+    - path: assets/train.json
+      md5: 3b92901005b45daf69cb8e747d59d5a9
+    - path: assets/dev.json
+      md5: 70aca68f5da562b4480222882b3fd526
     - path: scripts/preprocess.py
       md5: 1b2e0c649aaf6810cec31ac81a9c4e10
   outs:
     - path: corpus/train.spacy
-      md5: a7f50ece194239bd4bc3f5c75e99fb07
+      md5: 9b1f81f207717cfdaf844aa2f8b9f0af
     - path: corpus/dev.spacy
-      md5: f58338b13bb7c8a46266827c583b9e88
+      md5: adcd262450d122ad40b956630be8d307
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77
 train:
@@ -24,14 +24,14 @@ train:
       --paths.dev corpus/dev.spacy --gpu-id 0
   deps:
     - path: corpus/train.spacy
-      md5: a7f50ece194239bd4bc3f5c75e99fb07
+      md5: 9b1f81f207717cfdaf844aa2f8b9f0af
     - path: corpus/dev.spacy
-      md5: f58338b13bb7c8a46266827c583b9e88
+      md5: adcd262450d122ad40b956630be8d307
     - path: configs/config.cfg
-      md5: 305bed21e4104550a2a823274f675ecb
+      md5: c3cf5c1e048b7f4f43ceb21b2f7849c5
   outs:
     - path: training/model-best
-      md5: 22d1ea9a34b3190e2a3548b9c8e5bde7
+      md5: ec427d42063aed6f48ab653ce4ec2d75
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77
 evaluate:
@@ -41,11 +41,30 @@ evaluate:
       --gpu-id 0
   deps:
     - path: corpus/dev.spacy
-      md5: f58338b13bb7c8a46266827c583b9e88
+      md5: adcd262450d122ad40b956630be8d307
     - path: training/model-best
-      md5: 22d1ea9a34b3190e2a3548b9c8e5bde7
+      md5: ec427d42063aed6f48ab653ce4ec2d75
   outs:
     - path: training/metrics.json
-      md5: 85e2482bcc0dbb0412ce01529ec12408
+      md5: 200ffbb5c1649488b2b558a8841bc699
+  spacy_version: 3.3.1
+  spacy_git_version: 5fb597f77
+convert:
+  cmd: python -m spacy run convert
+  script:
+    - python scripts/preprocess.py assets/train.json corpus/train.spacy
+    - python scripts/preprocess.py assets/dev.json corpus/dev.spacy
+  deps:
+    - path: assets/train.json
+      md5: 3b92901005b45daf69cb8e747d59d5a9
+    - path: assets/dev.json
+      md5: 70aca68f5da562b4480222882b3fd526
+    - path: scripts/preprocess.py
+      md5: 1b2e0c649aaf6810cec31ac81a9c4e10
+  outs:
+    - path: corpus/train.spacy
+      md5: 9b1f81f207717cfdaf844aa2f8b9f0af
+    - path: corpus/dev.spacy
+      md5: adcd262450d122ad40b956630be8d307
   spacy_version: 3.3.1
   spacy_git_version: 5fb597f77

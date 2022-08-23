@@ -6,7 +6,6 @@ from entities.RatingScheme import RatingScheme
 from entities.ExerciseRating import ExerciseRating
 from entities.QuizRequestModel import QuizRequestModel
 from entities.Rating import Rating
-from helper.QuestionMapper import QuestionMapper
 from keywordDetection.scripts.keyword_detection import get_keywords
 from semanticSimilarity.scripts.semantic_similarity import get_similarity_score
 
@@ -23,7 +22,7 @@ class QuizService:
             exerciseRatings = ExerciseRating()
             exerciseRatings.exercise = exercise
 
-            if(QuestionMapper.has_sample_solution(exercise.questionId)):
+            if exercise.has_sample_solution():
                                         #Get last Element
                 lastKey = list(ratingScheme.pointsForSimilarity)[-1]
                 maxSimilarityPoints = ratingScheme.pointsForSimilarity[lastKey]
@@ -33,7 +32,7 @@ class QuizService:
             rating = Rating(ratingScheme.maxPointsKeywords, maxSimilarityPoints)
 
             #similarity Rating
-            if QuestionMapper.has_sample_solution(exercise.questionId):
+            if exercise.has_sample_solution():
                 rating.similarityScore = get_similarity_score(exercise.questionId, exercise.solution)
                 pointThresholds = ratingScheme.pointsForSimilarity.keys()
                 for threshold in pointThresholds:

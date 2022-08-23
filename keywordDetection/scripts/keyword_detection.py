@@ -2,14 +2,13 @@ import json
 import re
 
 from entities.Exercise import Exercise
-from helper.QuestionMapper import QuestionMapper
 
 def get_keywords(exercise: Exercise):
     keywordFile = open("keywordDetection/assets/keywords.json", encoding="utf-8")
     keywords = json.load(keywordFile)
     questionId = exercise.questionId
     solution = exercise.solution
-    pattern = keywords[QuestionMapper.get_name(questionId)]
+    pattern = keywords[questionId]
     spans = []
 
     for match in re.finditer(pattern, solution):

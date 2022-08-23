@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class Exercise(BaseModel):
-    questionId: int
+    questionId: str
     solution: str
 
     def to_dictionary(self):
@@ -12,4 +12,5 @@ class Exercise(BaseModel):
 
         return dict
 
-
+    def has_sample_solution(self):
+        return "Arbeitsgestaltung" in self.questionId

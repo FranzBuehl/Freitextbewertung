@@ -1,6 +1,8 @@
 // This template defines different ways to ask product details
-// Generate Data with python -m chatette <path_to_template> -o <output_directory_path>
-%[&frage_nach_product_detail](1000)
+// For informations about the syntax specification visit: https://github.com/SimGus/Chatette/wiki
+// Generate Data with: python -m chatette .\assets\data_template.txt -o .\assets\generated\
+
+%[&frage_nach_product_detail](2000)
     ~[begrüßung?] wie ist denn @[pc_detail] vom @[PC]?
     ~[begrüßung?] wie ist denn @[monitor_detail] vom @[MONITOR]?
     ~[begrüßung?] wie ist denn @[drucker_detail] vom @[DRUCKER]?
@@ -12,6 +14,7 @@
     ~[begrüßung?] was ist die @[Größe] des @[MONITOR]?
     ~[begrüßung?] wie viele @[Seiten pro Minute] schafft der @[DRUCKER]?
     ~[begrüßung?] kann der @[DRUCKER] in @[Farbe] drucken?
+    ~[begrüßung?] hat der [@[PC]|@[MONITOR]|@[DRUCKER]] eine @[Produkt-Nummer]?
 ~[begrüßung]
     Hallo,
     Guten Tag,
@@ -161,6 +164,8 @@
     der Preis
 @[Produkt-Nummer]
     Produkt-Nummer
+    Produktnummer
+    Produktnr.
 @[Preis]
     Preis
 @[Prozessor]

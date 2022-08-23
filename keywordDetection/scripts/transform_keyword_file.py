@@ -42,6 +42,8 @@ for competence in data:
 with open("../assets/keywords.json", "w", encoding="utf-8") as file:
     json.dump(out, file, ensure_ascii=False, indent=4)
 
+print('Keyword transformation to RegEx is finished.')
+
 # Closing file
 file.close()
 

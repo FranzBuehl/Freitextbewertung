@@ -41,31 +41,27 @@ sampleTexts = json.load(file)
 file.close()
 
 output = []
-
-
 start = timeit.default_timer()
 
 augument_texts(0.3)
 now = timeit.default_timer()
-print(len(output), 'Datensätze generiert - Laufzeit:', (now-start)/60, 'Minuten')
+print(len(output), 'Datasets generated - runtime:', (now-start)/60, 'minutes')
 
 #Add texts with cat = Unbekannt
 fileUnknown= open('../assets/cat_unknown.json', encoding='utf-8')
 examplesUnknown = json.load(fileUnknown)
-output.append(examplesUnknown)
+for example in examplesUnknown:
+    output.append(example)
 fileUnknown.close()
 
 with open('../assets/text_cat_data.json', "w", encoding="utf-8") as file:
     json.dump(output, file, ensure_ascii=False, indent=4)
 
-end = timeit.default_timer()
-
-print('Datengenerierung Beendet - Laufzeit:', (end-start)/60, 'Minuten')
-# Closing file
+print(len(examplesUnknown), 'Datasets of cateory "Unbekannt" have been added')
 file.close()
 
 
-#####Splitt Data in dev and train
+#####Splitt Data in dev and train ######
 file = open('../assets/text_cat_data.json', encoding='utf-8')
 # returns JSON object as dictionary
 augumentedTexts = json.load(file)
@@ -87,5 +83,6 @@ with open("../assets/dev.json", "w", encoding="utf-8") as file:
 with open("../assets/train.json", "w", encoding="utf-8") as file:
     json.dump(train, file, ensure_ascii=False, indent=4)
 
-# Closing file
+print(len(dev), 'Test- and', len(train), 'Trainingdata have been created')
 file.close()
+

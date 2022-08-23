@@ -2,7 +2,7 @@ title: "Predicts to which of the questions an answer belongs (Text Classificatio
 vars:
   config: "config.cfg"
   name: "textcat_docs"
-  version: "0.0.0"
+  version: "0.0.1"
   train: "train"
   dev: "dev"
   gpu_id: 0
@@ -14,17 +14,17 @@ spacy_version: ">=3.0.6,<4.0.0"
 directories: ["assets", "training", "configs", "scripts", "corpus"]
 
 assets:
-  - dest: "assets/${vars.train}.jsonl"
-    description: "JSONL-formatted training data"
-  - dest: "assets/${vars.dev}.jsonl"
-    description: "JSONL-formatted development data"
+  - dest: "assets/${vars.train}.json"
+    description: "JSON-formatted training data"
+  - dest: "assets/${vars.dev}.json"
+    description: "JSON-formatted development data"
 
 # Workflows are sequences of commands (see below) executed in order. You can
 # run them via "spacy project run [workflow]". If a commands's inputs/outputs
 # haven't changed, it won't be re-run.
 workflows:
   all:
-    - preprocess
+    - convert
     - train
     - evaluate
 
@@ -33,11 +33,11 @@ workflows:
 # via "spacy project run [command] [path]". The help message is optional and
 # shown when executing "spacy project run [optional command] [path] --help".
 commands:
-  - name: "preprocess"
+  - name: "convert"
     help: "Convert the data to spaCy's binary format"
     script:
-      - "python scripts/preprocess.py assets/${vars.train}.jsonl corpus/${vars.train}.spacy"
-      - "python scripts/preprocess.py assets/${vars.dev}.jsonl corpus/${vars.dev}.spacy"
+      - "python scripts/preprocess.py assets/${vars.train}.json corpus/${vars.train}.spacy"
+      - "python scripts/preprocess.py assets/${vars.dev}.json corpus/${vars.dev}.spacy"
     deps:
       - "assets/${vars.train}.json"
       - "assets/${vars.dev}.json"

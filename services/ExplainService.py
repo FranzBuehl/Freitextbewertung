@@ -28,7 +28,7 @@ class ExplainService:
         return out
 
     def explain(self, quiz: list[Exercise], explanationPath: str):
-        texts = [exercise.solution for exercise in quiz]
+        texts = [exercise.solution for exercise in quiz if exercise.has_sample_solution()]
 
         # Create the Shap Explainer
         explainer = shap.Explainer(

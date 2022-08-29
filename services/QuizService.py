@@ -10,7 +10,6 @@ from keywordDetection.scripts.keyword_detection import get_keywords
 from semanticSimilarity.scripts.semantic_similarity import get_similarity_score
 
 #TODO read ratingScheme from config-tool
-
 ratingScheme = RatingScheme(1, 3, {0.6: 1, 0.7: 2, 0.8: 3})
 
 class QuizService:

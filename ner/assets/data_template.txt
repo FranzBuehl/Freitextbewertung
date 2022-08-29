@@ -164,8 +164,6 @@
     der Preis
 @[Produkt-Nummer]
     Produkt-Nummer
-    Produktnummer
-    Produktnr.
 @[Preis]
     Preis
 @[Prozessor]

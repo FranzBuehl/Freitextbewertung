@@ -12,8 +12,15 @@ sampleSolutions = json.load(file)
 
 def get_similarity_score(questionId: str, playerSolution: str):
     sampleSolution = sampleSolutions[questionId]
-    doc1 = nlp(sampleSolution)
-    doc2 = nlp(playerSolution)
-    return doc1.similarity(doc2)
+
+    #make sure playerSolution ends with punctuation
+    lastChar = playerSolution[len(playerSolution)-1]
+    if not lastChar in ".?!":
+        playerSolution += "."
+
+    docSample = nlp(sampleSolution)
+    docPlayer = nlp(playerSolution)
+
+    return docSample.similarity(docPlayer)
 
 file.close()

@@ -1,0 +1,555 @@
+[
+  [
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Zu Beginn sollte erklärt werden wie das Spiel geht. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "reference"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Zu Beginn sollte erklärt werden wie das Spiel geht. Dabei sollten die Ziele des Computershops definiert werden. Außerdem muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Zusätzlich sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "higher"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Es sollte erklärt werden, was getan werden muss, was die Ziele des Shops sind und wie der Ablauf des Spiels ist.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Zu Beginn sollte erklärt werden wie das Spiel geht. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat. Pi ist genau drei.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Es sollte erklärt werden, was getan werden muss.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Es muss eine Einweisung oder Anleitung geben, damit man weiß was zu tun ist. Es muss präzise erklärt werden, worum es im Spiel geht und wofür es Punkte gibt. Außerdem sollte definiert sein, wer Weisungsbefugnisse hat.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+     {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "reference"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern. Es sollte auch offensichtlich sein, welche Informationen bei den Kollegen angefragt werden müssen.",
+      "similarityValue": "higher"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Käse und Quark sind Milchprodukte. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Die Produktbibliothek sollte übersichtlich aufgebaut sein, so dass klar ist wo welche Information liegt. Außerdem sollte die Menge an Informationen nicht überfordern.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "reference"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden. Die Anforderungen sollten sich also inhaltlich unterscheiden.",
+      "similarityValue": "higher"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Die Arbeit sollte abwechslungsreich sein.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden. Der Turm von Pisa wird mit jedem Jahr schiefer.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Die Arbeit sollte abwechslungsreich sein und man sollte immer wieder neue Aufgaben bekommen bei denen auch unterschiedliche Fähigkeiten zur Lösung benötigt werden.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "reference"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig und es sind mehrere Lösungswege möglich.",
+      "similarityValue": "higher"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Im Flugzeug habe ich am liebsten einen Fensterplatz. Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Man sollte frei entscheiden können, wann welche der Aufgaben erledigt wird. Auch wie die Aufgabe gelöst wird, sollte freigestellt sein. Im Idealfall ist nur das Ergebnis wichtig.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+     {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt.",
+      "similarityValue": "reference"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt. Insgesamt sollte es nicht zu viele Aufträge geben, sodass sie in der verfügbaren Zeit erledigt werden können.",
+      "similarityValue": "higher"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Wichtig ist, dass es genug Bearbeitungszeit gibt.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt. Insgesamt sollte es nicht zu viele Aufträge geben, sodass man noch Zeit für Computerspiele hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Wichtig ist, dass es für jede Anfrage genug Bearbeitungszeit gibt, die Zeit für jeden Auftrag also ausreicht.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "reference"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten. Deshalb sollte man Kollegen auch mal abweisen können wenn sie stören.",
+      "similarityValue": "higher"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten. Beispielsweise wenn man eine Familienpizza essen möchte.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Man sollte bei der Erledigung einer Aufgabe nicht durch andere Anfragen unterbrochen werden. Es sollte die Möglichkeit geben ununterbrochen an etwas zu arbeiten.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "reference"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig. Der Umgangston untereinander sollte freundlich und hilfsbereit sein.",
+      "similarityValue": "higher"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Eine gewaltfreie Kommunikation ist wichtig.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig. Außer die Kollegen sind sadistisch veranlagt und stehen darauf.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Eine gewaltfreie Kommunikation mit den Kollegen ist wichtig.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+     {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "reference"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat. Das Feedback sollte wertschätzend formuliert sein.",
+      "similarityValue": "higher"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat. Wenn man gläubig ist, kann man aber auch zu Gott beten, damit er einem den rechten Weg weist.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Wichtig ist, dass man regelmäßig Feedback bekommt, wie man seine Arbeit erledigt. Nur so weiß man auch was man richtig und was man falsch gemacht hat.",
+      "similarityValue": "lower"
+    }
+  ],
+  [
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "reference"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können. Auch eine emotionale Unterstützung ist hilfreich und wünschenswert.",
+      "similarityValue": "higher"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können. Außer sie sind komplett inkompetent und halten mich damit eher von der Arbeit ab.",
+      "similarityValue": "lower"
+    },
+     {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Informationsprobleme",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Variabilität",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Zeitdruck",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    },
+    {
+      "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+      "solution": "Wenn man viel Arbeit hat, wäre es gut Unterstützung von den Kollegen zu bekommen. Im besten Fall fragen sie aktiv nach ob sie helfen können.",
+      "similarityValue": "lower"
+    }
+  ]
+]

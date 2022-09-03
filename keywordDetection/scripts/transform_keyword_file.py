@@ -36,7 +36,7 @@ for competence in data:
         name = competence + "/" + gameParameter
         keywords = data[competence][gameParameter]
         keywords = add_cases(keywords)
-        pattern = 'r' +'"' + keywords.replace("*", "(\w+)?").replace("/", "|").replace(",", "|")+ '"'
+        pattern = keywords.replace("*", "(\w+)?").replace("/", "|").replace(",", "|")
         out[name] = pattern
 
 with open("../assets/keywords.json", "w", encoding="utf-8") as file:

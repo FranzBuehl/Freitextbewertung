@@ -6,7 +6,7 @@ from entities.RatingScheme import RatingScheme
 from entities.ExerciseRating import ExerciseRating
 from entities.QuizRequestModel import QuizRequestModel
 from entities.Rating import Rating
-from keywordDetection.scripts.keyword_detection import get_keywords
+from keywordDetection.scripts.keyword_detection import get_keywords_in_exercise
 from semanticSimilarity.scripts.semantic_similarity import get_similarity_score
 
 #TODO read ratingScheme from config-tool
@@ -39,7 +39,7 @@ class QuizService:
                         rating.similarityPoints = ratingScheme.pointsForSimilarity[threshold]
 
             #keyword rating
-            rating.foundKeywords = get_keywords(exercise)
+            rating.foundKeywords = get_keywords_in_exercise(exercise)
 
             if len(rating.foundKeywords) * ratingScheme.pointsPerKeyword > rating.maxPointsKeyword:
                 rating.keywordPoints = rating.maxPointsKeyword

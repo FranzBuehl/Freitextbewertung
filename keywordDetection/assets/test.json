@@ -1,0 +1,457 @@
+[
+  {
+    "questionId": "Arbeitsanalyse/Rollenunklarheit",
+    "text": "Es gab unklare und teilweise auch widersprüchliche Anweisungen. Ich war mir also nicht sicher, was genau meine Aufgaben sind.",
+    "keywords": ["unklare", "widersprüchliche", "nicht sicher", "Aufgaben"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Informationsprobleme",
+    "text": "Es gab unklare und teilweise auch widersprüchliche Anweisungen. Ich war mir also nicht sicher, was genau meine Aufgaben sind.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Rollenunklarheit",
+    "text": "Mir fehlte eine Erklärung was genau getan werden soll.",
+    "keywords": ["Erklärung"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Rollenunklarheit",
+    "text": "Es wurde nicht eindeutig kommuniziert, was das Ziel der Arbeit ist. Die Beschreibung der Arbeit hat mir nicht arg weiter geholfen.",
+    "keywords": ["nicht eindeutig", "Ziel","Beschreibung"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+    "text": "Es wurde nicht eindeutig kommuniziert, was das Ziel der Arbeit ist. Die Beschreibung der Arbeit hat mir nicht arg weiter geholfen.",
+    "keywords": ["eindeutig", "Ziel", "Beschreibung"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Rollenunklarheit",
+    "text": "Die Aufgabenbeschreibung war zu unpräzise. Ich war mir nicht sicher was ich tun soll.",
+    "keywords": ["Aufgaben", "beschreibung", "unpräzise", "nicht sicher"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Arbeitsunterbrechungen",
+    "text": "Die Aufgabenbeschreibung war zu unpräzise. Ich war mir nicht sicher was ich tun soll.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Informationsprobleme",
+    "text": "Die Informationsmenge war zu hoch und das ganze war sehr unübersichtlich gestaltet.",
+    "keywords": ["Informationsmenge", "unübersichtlich"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Die Informationsmenge war zu hoch und das ganze war sehr unübersichtlich gestaltet.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Informationsprobleme",
+    "text": "Die Informationen waren nicht aktuell und schlecht dargestellt. Das ganze war einfach viel zu unübersichtlich.",
+    "keywords": ["schlecht", "unübersichtlich"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Informationsprobleme",
+    "text": "Die Informationen waren nicht aktuell und schlecht dargestellt. Das ganze war einfach viel zu unübersichtlich.",
+    "keywords": ["schlecht", "unübersichtlich"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Informationsprobleme",
+    "text": "Ich habe mich gut zurecht gefunden. Die benötigten Informationen waren gut und übersichtlich dargestellt.",
+    "keywords": ["gut", "übersichtlich dargestellt"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Informationsprobleme",
+    "text": "Die Informationsbeschaffung war ziemlich schwer. Ich hab nie was gefunden.",
+    "keywords": ["beschaffung"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Die Aufgaben sind immer ziemlich gleich. Man hat kaum abwechselnde Tätigkeiten. Allgemein gibt es sehr viel Wiederholung.",
+    "keywords": ["Aufgaben", "immer", " gleich", "Tätigkeiten", "Wiederholung"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Man darf immer wieder etwas neues machen und benötigt viele verschiedene Fähigkeiten um die Aufgaben zu erledigen.",
+    "keywords": ["immer","neues","Aufgaben"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Es gibt sehr viel Wiederholung. Die Arbeit langweilt sehr schnell",
+    "keywords": ["Wiederholung"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Die Aufgaben sind immer recht ähnlich. Besser wäre es wenn man mehr abwechselnde Aufgaben bekommt.",
+    "keywords": ["abwechselnde Aufgaben", "immer", "ähnlich", "Aufgaben"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Die Informationsbeschaffung war ziemlich schwer. Ich hab nie was gefunden.",
+    "keywords": ["nie"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Tätigkeitsspielraum",
+    "text": "Die Aufgaben sind immer recht ähnlich. Besser wäre es wenn man mehr abwechselnde Aufgaben bekommt.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Variabilität",
+    "text": "Es gibt sehr viel Wiederholung. Die Arbeit langweilt sehr schnell",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsanalyse/Arbeitsunterbrechungen",
+    "text": "Es gibt sehr viel Wiederholung. Die Arbeit langweilt sehr schnell",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Tätigkeitsspielraum",
+    "text": "Es gibt zu feste Vorgaben, wann welche Arbeit getan werden muss. Ich hätte mir hier mehr Handlungsspielraum gewunschen",
+    "keywords": ["Handlungsspielraum", "wann welche Arbeit", "feste Vorgaben"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+    "text": "Es gibt zu feste Vorgaben, wann welche Arbeit getan werden muss. Ich hätte mir hier mehr Handlungsspielraum gewunschen",
+    "keywords": ["Handlungsspielraum"]
+  },
+ {
+    "questionId": "Arbeitsanalyse/Tätigkeitsspielraum",
+    "text": "Es fehlt die Möglichkeit auch mal die Arbeit zu pausieren.",
+    "keywords": ["pausieren"]
+  },
+{
+    "questionId": "Arbeitsanalyse/Tätigkeitsspielraum",
+    "text": "Man hat überhaupt keine Freiheit in der Gestaltung seiner Arbeit. Außerdem fehlt die Information wie viel Zeit man zur Verfügung hat.",
+    "keywords": ["keine", "Freiheit", "wie viel Zeit"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Arbeitsunterbrechungen",
+    "text": "Man hat überhaupt keine Freiheit in der Gestaltung seiner Arbeit. Außerdem fehlt die Information wie viel Zeit man zur Verfügung hat.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Tätigkeitsspielraum",
+    "text": "Es gibt keinerlei Handlungsspielraum",
+    "keywords": ["keine","Handlungsspielraum"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Es gibt keinerlei Handlungsspielraum",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Die Menge an E-Mails und Nachrichten ist viel zu hoch. Man hat keine Chance das alles in der verfügbaren Zeit abzuarbeiten.",
+    "keywords": ["Menge", "E-Mails", "Nachrichten", "viel", "zu hoch", "verfügbaren Zeit", "arbeiten"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Die Menge an E-Mails und Nachrichten ist viel zu hoch. Man hat keine Chance das alles in der verfügbaren Zeit abzuarbeiten.",
+    "keywords": ["keine"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Es wird zu viel von einem verlangt. Ständig kommt zusätzliche Arbeit.",
+    "keywords": ["viel", "verlangt", "zusätzliche", "Arbeit"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Soziale Unterstützung",
+    "text": "Es wird zu viel von einem verlangt. Ständig kommt zusätzliche Arbeit.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Ich bin kaum hinterhergekommen die ganzen Kundenanfragen zu bearbeiten. Es ist einfach zu viel Arbeit für die verfügbare Zeit.",
+    "keywords": ["Kundenanfragen", "arbeiten", "viel", "Arbeit", "verfügbare Zeit"]
+  },
+{
+    "questionId": "Arbeitsgestaltung/Zeitdruck",
+    "text": "Ich bin kaum hinterhergekommen die ganzen Kundenanfragen zu bearbeiten. Es ist einfach zu viel Arbeit für die verfügbare Zeit.",
+    "keywords": ["Kundenanfragen", "arbeit"]
+  },
+ {
+    "questionId": "Arbeitsanalyse/Arbeitsunterbrechungen",
+    "text": "Es gab viele ungeplante Störungen, so dass man zwischen verschiedenen Aufgaben hin und her wechseln musste.",
+    "keywords": ["ungeplante", "Störungen", "zwischen","verschiedenen Aufgaben", "hin und her", "wechseln"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Arbeitsunterbrechungen",
+    "text": "Durch die ganzen Unterbrechungen habe ich viele Aufgaben parallel erledigt, was anstrengend war.",
+    "keywords": ["Unterbrechungen", "parallel"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Arbeitsunterbrechungen",
+    "text": "Man wird ständig bei der Arbeit behindert und muss dadurch immer wieder neu beginnen.",
+    "keywords": ["behindert", "beginnen"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Rollenunklarheit",
+    "text": "Man wird ständig bei der Arbeit behindert und muss dadurch immer wieder neu beginnen.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Durch die ganzen Unterbrechungen habe ich viele Aufgaben parallel erledigt, was anstrengend war.",
+    "keywords": ["viel", "Aufgaben"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+    "text": "Es gab viele ungeplante Störungen, so dass man zwischen verschiedenen Aufgaben hin und her wechseln musste.",
+    "keywords": ["ungeplante", "Störungen","zwischen","verschiedenen Aufgaben", "hin und her", "wechseln"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Die Kunden waren teilweise echt unfreundlich und manchmal sogar aggressiv.",
+    "keywords": ["Kunden", "unfreundlich", "aggressiv"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Meine Kollegen waren ziemlich fordernd. Gleichzeitig aber echt unhöflich wenn ich mal was von ihnen gebraucht habe.  Das war kein angenehmer Umgang.",
+    "keywords": ["Kollegen", "fordernd", "unhöflich"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Es war unerhört, was für einen Tonfall manche Kunden haben.",
+    "keywords": ["Kunden", "unerhört", "Tonfall"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Feedback/Anerkennung",
+    "text": "Es war unerhört, was für einen Tonfall manche Kunden haben.",
+    "keywords": []
+  },
+{
+    "questionId": "Arbeitsgestaltung/Soziale Stressoren",
+    "text": "Meine Kollegen waren ziemlich fordernd. Gleichzeitig aber echt unhöflich wenn ich mal was von ihnen gebraucht habe. Das war kein angenehmer Umgang.",
+    "keywords": ["höflich","angenehm","Umgang"]
+  },
+ {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Die Kunden waren teilweise echt unfreundlich und manchmal sogar aggressiv.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsanalyse/Feedback/Anerkennung",
+    "text": "Ich hätte mir mehr Wertschätzung von den Kollegen gewünscht oder zumindest mal ein paar nette Worte.",
+    "keywords": ["Wertschätzung", "nett"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Feedback/Anerkennung",
+    "text": "Ich habe mich sehr wertgeschätzt gefühlt. Die Kollegen waren freundlich und haben meine Arbeit geschätzt.",
+    "keywords": ["wertgeschätzt", "freundlich", "geschätzt"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Feedback/Anerkennung",
+    "text": "Mir hat die Anerkennung der Kollegen gefehlt. Zumindest mal ein paar freundliche Worte sind ja wohl nicht zu viel verlangt.",
+    "keywords": ["Anerkennung", "freundliche"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Feedback/Anerkennung",
+    "text": "Man wurde wahrgenommen und es gab nett gemeinte Worte von den Kollegen.",
+    "keywords": ["wahrgenommen", "nett"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+    "text": "Mir hat die Anerkennung der Kollegen gefehlt. Zumindest mal ein paar freundliche Worte sind ja wohl nicht zu viel verlangt.",
+    "keywords": ["Anerkennung", "freundliche"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+    "text": "Man wurde wahrgenommen und es gab nett gemeinte Worte von den Kollegen.",
+    "keywords": ["wahrgenommen", "nett"]
+  },
+    {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Man wurde wahrgenommen und es gab nett gemeinte Worte von den Kollegen.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+    "text": "Ich habe mich sehr wertgeschätzt gefühlt. Die Kollegen waren freundlich und haben meine Arbeit geschätzt.",
+    "keywords": ["wertgeschätzt", "freundlich", "geschätzt"]
+  },
+ {
+    "questionId": "Arbeitsgestaltung/Variabilität",
+    "text": "Ich habe mich sehr wertgeschätzt gefühlt. Die Kollegen waren freundlich und haben meine Arbeit geschätzt.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Unterstützung",
+    "text": "Ich wurde unterstützt wenn es mir zu viel wurde. Die Kollegen haben mir ausgeholfen.",
+    "keywords": ["unterstützt", "ausgeholfen"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Soziale Unterstützung",
+    "text": "Ich hätte mir mehr Unterstützung erhofft. Es gab keinerlei Support obwohl ich so viel zu tun hatte.",
+    "keywords": ["Unterstützung", "Support"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+    "text": "Ich wurde unterstützt wenn es mir zu viel wurde. Die Kollegen haben mir ausgeholfen.",
+    "keywords": ["unterstützt", "ausgeholfen"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+    "text": "Ich hätte mir mehr Unterstützung erhofft. Es gab keinerlei Support obwohl ich so viel zu tun hatte.",
+    "keywords": ["Unterstützung", "Support"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Unterstützung",
+    "text": "Ein Kollege hat mir angeboten mir zu helfen und ist für mich eingesprungen als es mir zu viel wurde.",
+    "keywords": ["helfen", "angeboten", "eingesprungen"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+    "text": "Ein Kollege hat mir angeboten mir zu helfen und ist für mich eingesprungen als es mir zu viel wurde.",
+    "keywords": ["helfen", "angeboten", "eingesprungen"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Die Kollegen waren ziemlich unfreundlich und ruppig, keiner hat mal gegrüßt oder was Nettes gefragt. Manchmal waren sie richtig pampig oder aggressiv im Ton.",
+    "keywords": ["Kollegen", "unfreundlich", "aggressiv"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Soziale Stressoren",
+    "text": "Die Kollegen waren eigentlich immer recht freundlich und nett, auch wenn ich mal was gefragt habe, kam eigentlich immer eine nette Antwort",
+    "keywords": ["Kollegen"]
+  },
+  {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Die Kollegen waren ziemlich unfreundlich und ruppig, keiner hat mal gegrüßt oder was Nettes gefragt. Manchmal waren sie richtig pampig oder aggressiv im Ton.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+    "text": "Die Ziele der Arbeit sollten klar und eindeutig benannt werden.",
+    "keywords": ["Ziele", "sollten", "klar", "eindeutig", "benannt"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+    "text": "Es muss eindeutig angegeben werden, wie die Bewertung der Aufgaben erfolgt",
+    "keywords": ["eindeutig", "angegeben", "Bewertung", "Aufgaben"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Rollenunklarheit",
+    "text": "Es wird eine Beschreibung der Aufgaben benötigt. In dieser Anleitung muss klar und eindeutig erklärt werden, was getan werden soll",
+    "keywords": ["Beschreibung", "Aufgaben", "Anleitung", "klar", "eindeutig"]
+  },
+    {
+    "questionId": "Arbeitsanalyse/Rollenunklarheit",
+    "text": "Es wird eine Beschreibung der Aufgaben benötigt. In dieser Anleitung muss klar und eindeutig erklärt werden, was getan werden soll",
+    "keywords": ["Beschreibung", "Aufgaben", "Anleitung"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Arbeitsunterbrechungen",
+    "text": "Die Ziele der Arbeit sollten klar und eindeutig benannt werden.",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Feedback/Anerkennung",
+    "text": "Es muss eindeutig angegeben werden, wie die Bewertung der Aufgaben erfolgt",
+    "keywords": []
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Informationsprobleme",
+    "text": "Die Informationsmenge muss angemessen sein und darf nicht überfordern. Die Informationen sollten übersichtlich dargestellt sein.",
+    "keywords": ["Informationsmenge", "angemessen", "übersichtlich", "dargestellt"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Informationsprobleme",
+    "text": "Die benötigten Informationen sollten gut übersichtlich dargestellt werden. Außerdem sollten es nicht zu viele Informationen sein.",
+    "keywords": ["gut", "übersichtlich", "dargestellt", "nicht zu viel"]
+  },
+  {
+    "questionId": "Arbeitsgestaltung/Informationsprobleme",
+    "text": "Die Beschaffung der Informationen die zur Erledigung der Aufgaben benötigt werden, darf nicht zu komplex sein.",
+    "keywords": ["Beschaffung"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Variabilität",
+    "text": "Die Aufgaben sollten vielfältig sein, so dass man verschiedene Fähigkeiten zur Erledigung benötigt. Die Tätigkeiten sollten sich nicht den ganzen Tag wiederholen.",
+    "keywords": ["Aufgaben", "vielfältig", "Tätigkeiten"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Variabilität",
+    "text": "Wichtig ist, dass es abwechselnde Tätigkeiten gibt. Man sollte immer mal wieder etwas Neues zu tun bekommen, damit einem nicht langweilig wird.",
+    "keywords": ["Tätigkeiten", "immer", "Neues"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Variabilität",
+    "text": "Man sollte nicht immer nur das gleiche zu tun bekommen. Wichtig ist, dass die Anforderungen vielfältig sind und dass es nur wenig Wiederholung gibt.",
+    "keywords": ["immer", "vielfältig", "wenig Wiederholung"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Variabilität",
+    "text": "Die Aufgaben sollten vielfältig sein, so dass man verschiedene Fähigkeiten zur Erledigung benötigt. Die Tätigkeiten sollten sich nicht den ganzen Tag wiederholen.",
+    "keywords": ["Aufgaben", "Tätigkeiten"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+    "text": "Wichtig ist, dass es abwechselnde Tätigkeiten gibt. Man sollte immer mal wieder etwas Neues zu tun bekommen, damit einem nicht langweilig wird.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Zeitdruck",
+    "text": "Man sollte nicht immer nur das gleiche zu tun bekommen. Wichtig ist, dass die Anforderungen vielfältig sind und dass es nur wenig Wiederholung gibt.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+    "text": "Es sollte einen gewissen Handlungsspielraum bei der Bearbeitung der Aufgaben geben. Beispielsweise sollte die Reihenfolge der Bearbeitung nicht starr festgelegt sein.",
+    "keywords": ["Handlungsspielraum", "Reihenfolge"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+    "text": "Man sollte die Möglichkeit haben, frei zu entscheiden, welche Aufgaben man wann macht und die Möglichkeit haben die Arbeit mal zu pausieren.",
+    "keywords": ["frei","pausieren"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+    "text": "Es sollte keinerlei Vorgaben zur Reihenfolge geben in der die Aufgaben erledigt werden. Das sollte jedem selbst überlassen werden. Hauptsache, sie sind am Ende erledigt.",
+    "keywords": ["keinerlei Vorgaben", "Reihenfolge"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Tätigkeitsspielraum",
+    "text": "Es sollte einen gewissen Handlungsspielraum bei der Bearbeitung der Aufgaben geben. Beispielsweise sollte die Reihenfolge der Bearbeitung nicht starr festgelegt sein.",
+    "keywords": ["Handlungsspielraum", "Reihenfolge", "festgelegt"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Informationsprobleme",
+    "text": "Man sollte die Möglichkeit haben, frei zu entscheiden, welche Aufgaben man wann macht und die Möglichkeit haben die Arbeit mal zu pausieren.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Soziale Unterstützung",
+    "text": "Es sollte keinerlei Vorgaben zur Reihenfolge geben in der die Aufgaben erledigt werden. Das sollte jedem selbst überlassen werden. Hauptsache, sie sind am Ende erledigt.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Zeitdruck",
+    "text": "Wichtig ist, dass es ausreichend Zeit zur Bearbeitung der ganzen Aufträge gibt. Die Menge an Anfragen sollte also nicht überfordern.",
+    "keywords": ["ausreichend Zeit", "arbeit", "Aufträge", "Menge"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Zeitdruck",
+    "text": "Es muss genügend Zeit zur beantwortung der ganzen E-Mails und Nachrichten geben. Wenn die Zeit zur Bearbeitung nicht ausreicht baut das nur unnötig Druck auf.",
+    "keywords": ["E-Mails", "Nachrichten", "arbeit"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Zeitdruck",
+    "text": "Die Menge der Kundenanfragen, die ein Mitarbeiter bearbeiten muss, sollte im Verhältniss zu der zur Verfügung stehenden Zeit stehen",
+    "keywords": ["Menge", "Kundenanfragen", "arbeit"]
+  },
+   {
+    "questionId": "Arbeitsanalyse/Zeitdruck",
+    "text": "Wichtig ist, dass es ausreichend Zeit zur Bearbeitung der ganzen Aufträge gibt. Die Menge an Anfragen sollte also nicht überfordern.",
+    "keywords": ["arbeitung", "Aufträge", "Menge"]
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Tätigkeitsspielraum",
+    "text": "Es muss genügend Zeit zur beantwortung der ganzen E-Mails und Nachrichten geben. Wenn die Zeit zur Bearbeitung nicht ausreicht baut das nur unnötig Druck auf.",
+    "keywords": []
+  },
+   {
+    "questionId": "Arbeitsgestaltung/Informationsprobleme",
+    "text": "Die Menge der Kundenanfragen, die ein Mitarbeiter bearbeiten muss, sollte im Verhältniss zu der zur Verfügung stehenden Zeit stehen",
+    "keywords": ["Menge"]
+  }
+]

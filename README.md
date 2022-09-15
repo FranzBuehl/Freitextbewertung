@@ -1,8 +1,6 @@
-<!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
+# This is the Prototype for the PAGEL Text Analytics-Tool  
 
-# 🪐 spaCy Project: FastAPI integration
-
-Use [FastAPI](https://fastapi.tiangolo.com/) to serve your spaCy models and host modern REST APIs. To install the dependencies and start the server, you can run `spacy project run start`. To explore the REST API interactively, navigate to `http://127.0.0.1:5000/docs` in your browser. See the examples for how to query the API using Python or JavaScript.
+Use [FastAPI](https://fastapi.tiangolo.com/) to host the application. To install the dependencies and start the server, you can run `spacy project run start`. To explore the REST API interactively, navigate to `http://127.0.0.1:5000/docs` in your browser. See the examples for how to query the API using Python or JavaScript.
 
 ## 📋 project.yml
 

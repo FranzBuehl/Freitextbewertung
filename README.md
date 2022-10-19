@@ -3,13 +3,13 @@
 ## To initial use the Project:
 
 Make sure you have installed Python and install pip or an other Package installer for Python
-py -m pip install --upgrade pip
+`py -m pip install --upgrade pip`
 
 Install Spacy
-pip install -U spacy
+`pip install -U spacy`
 
 Install the other dependencies and start the application
-spacy project run start
+`spacy project run start`
 
 Use [FastAPI](https://fastapi.tiangolo.com/) to host the application. To install the dependencies and start the server, you can run `spacy project run start`. To explore the REST API interactively, navigate to `http://127.0.0.1:5000/docs` in your browser. See the examples for how to query the API using Python or JavaScript.
 
